@@ -52,6 +52,7 @@ def main():
             "rate_sheets": s.get("rate_sheets"),     # None với airline
             "commission": s.get("commission"),
             "quality_rating": s.get("quality_rating"),
+            "confidential": bool(s.get("confidential")),  # True → lọc khỏi output khách-facing
         })
 
     tour_out = []

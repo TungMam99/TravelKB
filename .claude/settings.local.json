@@ -28,7 +28,9 @@
       "Bash(git add *)",
       "Bash(git commit -q -m ' *)",
       "Bash(.venv/bin/python -c \"import yaml\")",
-      "Bash(.venv/bin/python build/extract_kb.py)"
+      "Bash(.venv/bin/python build/extract_kb.py)",
+      "Bash(.venv/bin/python -c \"import json; d=json.load\\(open\\('build/suppliers.json'\\)\\); print\\('hotels:', [s['slug'] for s in d if s['category']=='hotel']\\)\")",
+      "Bash(.venv/bin/python -c \"import json; d=json.load\\(open\\('build/suppliers.json'\\)\\); print\\('confidential suppliers:', [s['slug'] for s in d if s['confidential']]\\)\")"
     ]
   }
 }

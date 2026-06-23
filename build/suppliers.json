@@ -7,7 +7,8 @@
     "price_source": "tool:fast-flights",
     "rate_sheets": null,
     "commission": "Chưa xác nhận — cập nhật từ hợp đồng đại lý vé",
-    "quality_rating": null
+    "quality_rating": null,
+    "confidential": false
   },
   {
     "slug": "best-western-sonasea-phu-quoc",
@@ -25,7 +26,64 @@
       }
     ],
     "commission": null,
-    "quality_rating": 4
+    "quality_rating": 4,
+    "confidential": false
+  },
+  {
+    "slug": "galaxy-3-vung-tau",
+    "short_name": "Galaxy3",
+    "category": "hotel",
+    "location": "[[destinations/vung-tau]]",
+    "price_source": null,
+    "rate_sheets": [
+      {
+        "season": "Giá thường 2023",
+        "valid_until": "2023-12-31",
+        "note": "Chưa gồm VAT, nước uống, giặt ủi",
+        "rates": {
+          "Single Room 1 (20m2)": 400000,
+          "Single Room 2 (25m2, City View)": 450000,
+          "Double Room 1 (25m2, no window)": 450000,
+          "Double Room 1 (25m2, City View)": 500000,
+          "Double Room 2 (30m2, City View)": 600000,
+          "VIP Room 1 (40m2, City View)": 1000000
+        }
+      },
+      {
+        "season": "Lễ / Tết",
+        "valid_until": "2023-12-31",
+        "note": "Phụ thu +50% tiền phòng",
+        "rates": {}
+      }
+    ],
+    "commission": null,
+    "quality_rating": 3,
+    "confidential": false
+  },
+  {
+    "slug": "muong-thanh-can-tho",
+    "short_name": "MTCanTho",
+    "category": "hotel",
+    "location": "[[destinations/can-tho]]",
+    "price_source": null,
+    "rate_sheets": [
+      {
+        "season": "Giá hợp đồng 2023 (gồm ăn sáng, VAT, phí dịch vụ)",
+        "valid_until": "2023-12-31",
+        "note": "Không phụ thu lễ/tết/cuối tuần",
+        "rates": {
+          "Deluxe King/Twin (32m2)": 1550000,
+          "Deluxe Triple/Family Triple (38m2)": 1950000,
+          "Executive Suite (68m2)": 2500000,
+          "Royal Suite (350m2)": 10000000,
+          "Presidential Suite (600m2)": 12000000,
+          "Extra bed": 400000
+        }
+      }
+    ],
+    "commission": "Không hoa hồng (giá đã gồm phí dịch vụ + VAT)",
+    "quality_rating": 4,
+    "confidential": true
   },
   {
     "slug": "long-beach-phu-quoc",
@@ -43,6 +101,7 @@
       }
     ],
     "commission": null,
-    "quality_rating": 4
+    "quality_rating": 4,
+    "confidential": false
   }
 ]

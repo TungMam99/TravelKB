@@ -24,3 +24,10 @@ Tạo: 2 destinations (phu-quoc, bangkok), 3 suppliers (vietjet airline live-pri
 1 tour-product (bangkok-pattaya-5n4d), 1 quote (phu-quoc đoàn 44k, lãi 56,9tr), 1 concept (markup-policy 11,76%/19,22%),
 3 sources. Sinh build/{suppliers,tour-products}.json qua build/extract_kb.py.
 ⚠️ Phát hiện: contract-TET là hợp đồng KHÁCH B2B, không phải supplier → gap model, cần entity "Client".
+
+## [2026-06-23] ingest | 2 hotel supplier: Galaxy 3 + Mường Thanh Cần Thơ
+Convert + ingest: Galaxy 3 Vũng Tàu (bảng giá công bố 2023, 400k–1tr) và Mường Thanh Cần Thơ
+(HĐ nguyên tắc 2023, 1,55–12tr). Tạo 2 supplier hotel + 2 destination (vung-tau, can-tho) + 2 source.
+suppliers.json: 3→5. Thêm field `confidential` vào build extract.
+⚠️ Mường Thanh: HĐ CẤM lộ giá ra bên thứ ba/website → gắn `confidential: true`; Agent/Website
+(Spec 2/3) phải lọc supplier confidential khỏi mọi output khách-facing.
