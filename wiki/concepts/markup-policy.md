@@ -3,6 +3,12 @@ type: concept
 topic: budgeting
 scope: global
 tags: [concept, pricing]
+# Machine-readable (build/markup-policy.json → Agent quote_calc). Tham chiếu từ 1 tour, CHỜ lãnh đạo chuẩn hóa.
+margin_incl_air: 0.1176     # lãi/doanh thu gồm vé
+margin_excl_air: 0.1922     # lãi/doanh thu chưa vé (land tour)
+land_markup: 0.1922         # = margin_excl_air; land_rev = land_cost/(1-land_markup)
+vat: 0.08
+confirmed: false            # true khi lãnh đạo duyệt % chuẩn
 updated: 2026-06-23
 sources: ["[[sources/chiet-tinh-gia-noi-bo]]"]
 ---

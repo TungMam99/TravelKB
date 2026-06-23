@@ -1,0 +1,8 @@
+{
+  "margin_incl_air": 0.1176,
+  "margin_excl_air": 0.1922,
+  "land_markup": 0.1922,
+  "vat": 0.08,
+  "confirmed": false,
+  "source": "wiki/concepts/markup-policy.md"
+}

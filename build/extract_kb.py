@@ -36,6 +36,20 @@ def collect(subdir, wanted_type):
     return out
 
 
+def markup_policy():
+    """Trích frontmatter concepts/markup-policy.md → dict cho Agent quote_calc."""
+    p = WIKI / "concepts" / "markup-policy.md"
+    fm = parse_frontmatter(p) or {}
+    return {
+        "margin_incl_air": fm.get("margin_incl_air"),
+        "margin_excl_air": fm.get("margin_excl_air"),
+        "land_markup": fm.get("land_markup"),
+        "vat": fm.get("vat"),
+        "confirmed": bool(fm.get("confirmed")),
+        "source": "wiki/concepts/markup-policy.md",
+    }
+
+
 def main():
     suppliers = collect("suppliers", "supplier")
     tours = collect("tours/tour-products", "tour-product")
@@ -71,9 +85,15 @@ def main():
     (ROOT / "build" / "tour-products.json").write_text(
         json.dumps(tour_out, ensure_ascii=False, indent=2, default=str), encoding="utf-8")
 
+    policy = markup_policy()
+    (ROOT / "build" / "markup-policy.json").write_text(
+        json.dumps(policy, ensure_ascii=False, indent=2, default=str), encoding="utf-8")
+
     print(f"suppliers.json: {len(sup_out)} suppliers "
           f"({sum(1 for s in sup_out if s['price_source'])} live-priced)")
     print(f"tour-products.json: {len(tour_out)} tour products")
+    print(f"markup-policy.json: margin_incl_air={policy['margin_incl_air']} "
+          f"confirmed={policy['confirmed']}")
 
 
 if __name__ == "__main__":
