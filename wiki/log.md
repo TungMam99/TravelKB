@@ -39,3 +39,14 @@ conversation (manual loop human-in-the-loop), cli, selftest. Cài anthropic SDK 
 Thêm `build/markup-policy.json` (margin 11,76%/19,22% từ frontmatter markup-policy.md).
 selftest PASS 5/5 (không cần API key): quote_calc margin chưa-vé 19.22% khớp sheet thật, lọc confidential,
 flight fallback, loop+save gate. LLM live cần ANTHROPIC_API_KEY.
+
+## [2026-06-24] verify | Agent chạy LIVE end-to-end
+Chạy `agent.demo` với API key thật (Sonnet 4.6): agent dựng khung tour Phú Quốc 4N3Đ, gọi flight_search
+live (VNA/VJ), quote_calc deterministic (giá vốn 25,99tr → bán 32,57tr, margin 16,1%), tách bảng nội bộ/khách,
+tự flag rủi ro (giá 2022 cũ, markup chưa chuẩn, thiếu rate hoạt động). Toàn platform hoạt động ở tầng agent.
+
+## [2026-06-24] maintain | Code Spec 3 — Website nội bộ (Streamlit)
+Viết Spec 3 (`docs/superpowers/specs/2026-06-24-website-design.md`) + `web/app.py` (Streamlit, KHÔNG auth):
+chat UI + save-gate bằng nút Duyệt/Không + sidebar (model, KB stats). Cài streamlit 1.58 vào .venv.
+Smoke test: py_compile sạch, app boot headless HTTP 200 + health ok, không lỗi. Tái dùng 100% agent.Session.
+→ Cả 3 lớp platform đã có Spec + code.
