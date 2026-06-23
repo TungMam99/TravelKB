@@ -1,0 +1,92 @@
+{
+  ".claude/settings.json": {
+    "mtime": 1782226357.1630878,
+    "ast_hash": "26813ef79867b37ba456e02c6cc4542e",
+    "semantic_hash": "26813ef79867b37ba456e02c6cc4542e"
+  },
+  ".claude/settings.local.json": {
+    "mtime": 1782227969.6524951,
+    "ast_hash": "098e85ab39ee9dce7f4b78b182cc98e7",
+    "semantic_hash": "098e85ab39ee9dce7f4b78b182cc98e7"
+  },
+  "CLAUDE.md": {
+    "mtime": 1782227533.52506,
+    "ast_hash": "7595d07ee8cef9f9a85282e6d061b182",
+    "semantic_hash": "7595d07ee8cef9f9a85282e6d061b182"
+  },
+  "Pattern/Graphify.md": {
+    "mtime": 1782225505.2408686,
+    "ast_hash": "57c459bee4dc6504fea9c1e642ad21fd",
+    "semantic_hash": "57c459bee4dc6504fea9c1e642ad21fd"
+  },
+  "Pattern/Markitdown.md": {
+    "mtime": 1782225856.666898,
+    "ast_hash": "8dce5929bbd60aed685d3795888460fc",
+    "semantic_hash": "8dce5929bbd60aed685d3795888460fc"
+  },
+  "Pattern/Speckit.md": {
+    "mtime": 1782225781.8252616,
+    "ast_hash": "621d16ec3ab3b657ca2d5e8f2f2177d4",
+    "semantic_hash": "621d16ec3ab3b657ca2d5e8f2f2177d4"
+  },
+  "Pattern/llmwiki.md": {
+    "mtime": 1775319913.0,
+    "ast_hash": "7953122eebc7aca33db25cd86a89a19a",
+    "semantic_hash": "7953122eebc7aca33db25cd86a89a19a"
+  },
+  "README.md": {
+    "mtime": 1782227668.5921962,
+    "ast_hash": "3c527f4c17004a2736c0dd9aaa4555e8",
+    "semantic_hash": "3c527f4c17004a2736c0dd9aaa4555e8"
+  },
+  "raw/README.md": {
+    "mtime": 1782227579.0553193,
+    "ast_hash": "310871f02b7716c005b197745d5b8e17",
+    "semantic_hash": "310871f02b7716c005b197745d5b8e17"
+  },
+  "templates/concept.md": {
+    "mtime": 1782227626.1064928,
+    "ast_hash": "e7061692449e061152a09f369f1bc4df",
+    "semantic_hash": "e7061692449e061152a09f369f1bc4df"
+  },
+  "templates/destination.md": {
+    "mtime": 1782227596.8863542,
+    "ast_hash": "b1883c5b351cb89744cf36868c6a592a",
+    "semantic_hash": "b1883c5b351cb89744cf36868c6a592a"
+  },
+  "templates/entity.md": {
+    "mtime": 1782227617.9310012,
+    "ast_hash": "677959095a0aa34945d22da44b9b4152",
+    "semantic_hash": "677959095a0aa34945d22da44b9b4152"
+  },
+  "templates/source.md": {
+    "mtime": 1782227636.0906734,
+    "ast_hash": "9edbb89fb2d4ad29631c1638e708e4c9",
+    "semantic_hash": "9edbb89fb2d4ad29631c1638e708e4c9"
+  },
+  "templates/synthesis.md": {
+    "mtime": 1782227645.7025092,
+    "ast_hash": "f4a29ea40d5105aa1fd80fd282bd0238",
+    "semantic_hash": "f4a29ea40d5105aa1fd80fd282bd0238"
+  },
+  "templates/trip.md": {
+    "mtime": 1782227609.8717942,
+    "ast_hash": "fcbfb8c5696bc8a32cc42a0313234ceb",
+    "semantic_hash": "fcbfb8c5696bc8a32cc42a0313234ceb"
+  },
+  "wiki/index.md": {
+    "mtime": 1782227545.634217,
+    "ast_hash": "43cbc14704003c230c0f68daa32cb064",
+    "semantic_hash": "43cbc14704003c230c0f68daa32cb064"
+  },
+  "wiki/log.md": {
+    "mtime": 1782227554.070647,
+    "ast_hash": "2040820720e402eda2a05c108711e264",
+    "semantic_hash": "2040820720e402eda2a05c108711e264"
+  },
+  "wiki/overview.md": {
+    "mtime": 1782227569.2978756,
+    "ast_hash": "61664124c904a5114dcb35b3f0b7f7f4",
+    "semantic_hash": "61664124c904a5114dcb35b3f0b7f7f4"
+  }
+}

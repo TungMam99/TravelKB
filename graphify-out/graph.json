@@ -1,0 +1,1041 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "three_layer_architecture_stack",
+        "label": "Three-Layer Architecture (raw/wiki/schema)",
+        "nodes": [
+          "claude_md_raw_sources_layer",
+          "claude_md_wiki_layer",
+          "claude_md_schema_layer"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 0.95,
+        "source_file": "CLAUDE.md"
+      },
+      {
+        "id": "wiki_operations_flow",
+        "label": "Wiki Operations (ingest/query/lint)",
+        "nodes": [
+          "claude_md_ingest_operation",
+          "claude_md_query_operation",
+          "claude_md_lint_operation"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 0.9,
+        "source_file": "CLAUDE.md"
+      },
+      {
+        "id": "wiki_page_types",
+        "label": "Wiki Page Types",
+        "nodes": [
+          "templates_destination_destination_page",
+          "templates_trip_trip_page",
+          "templates_entity_entity_page",
+          "templates_concept_concept_page",
+          "templates_source_source_page",
+          "templates_synthesis_synthesis_page"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 0.9,
+        "source_file": "CLAUDE.md"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "Travel Knowledge Base Schema",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_md_travel_knowledge_base_schema",
+      "community": 2,
+      "norm_label": "travel knowledge base schema"
+    },
+    {
+      "label": "Three-Layer Architecture",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_md_three_layer_architecture",
+      "community": 2,
+      "norm_label": "three-layer architecture"
+    },
+    {
+      "label": "Raw Sources Layer (raw/)",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_md_raw_sources_layer",
+      "community": 3,
+      "norm_label": "raw sources layer (raw/)"
+    },
+    {
+      "label": "Wiki Layer (wiki/)",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_md_wiki_layer",
+      "community": 0,
+      "norm_label": "wiki layer (wiki/)"
+    },
+    {
+      "label": "Schema Layer (CLAUDE.md)",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_md_schema_layer",
+      "community": 2,
+      "norm_label": "schema layer (claude.md)"
+    },
+    {
+      "label": "Ingest Operation",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_md_ingest_operation",
+      "community": 5,
+      "norm_label": "ingest operation"
+    },
+    {
+      "label": "Query Operation",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_md_query_operation",
+      "community": 6,
+      "norm_label": "query operation"
+    },
+    {
+      "label": "Lint Operation",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_md_lint_operation",
+      "community": 2,
+      "norm_label": "lint operation"
+    },
+    {
+      "label": "Bookkeeping Core Principle",
+      "file_type": "rationale",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_md_bookkeeping_principle",
+      "community": 4,
+      "norm_label": "bookkeeping core principle"
+    },
+    {
+      "label": "Obsidian Linking Conventions",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_md_obsidian_conventions",
+      "community": 1,
+      "norm_label": "obsidian linking conventions"
+    },
+    {
+      "label": "LLM Wiki Pattern",
+      "file_type": "concept",
+      "source_file": "Pattern/llmwiki.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "llmwiki_llm_wiki_pattern",
+      "community": 1,
+      "norm_label": "llm wiki pattern"
+    },
+    {
+      "label": "Persistent Compounding Wiki",
+      "file_type": "rationale",
+      "source_file": "Pattern/llmwiki.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "llmwiki_persistent_compounding_artifact",
+      "community": 4,
+      "norm_label": "persistent compounding wiki"
+    },
+    {
+      "label": "RAG (Retrieval-Augmented Generation)",
+      "file_type": "concept",
+      "source_file": "Pattern/llmwiki.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "llmwiki_rag",
+      "community": 4,
+      "norm_label": "rag (retrieval-augmented generation)"
+    },
+    {
+      "label": "Vannevar Bush Memex",
+      "file_type": "concept",
+      "source_file": "Pattern/llmwiki.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "llmwiki_memex",
+      "community": 1,
+      "norm_label": "vannevar bush memex"
+    },
+    {
+      "label": "Obsidian",
+      "file_type": "concept",
+      "source_file": "Pattern/llmwiki.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "llmwiki_obsidian",
+      "community": 1,
+      "norm_label": "obsidian"
+    },
+    {
+      "label": "qmd Search Engine",
+      "file_type": "concept",
+      "source_file": "Pattern/llmwiki.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "llmwiki_qmd",
+      "community": 6,
+      "norm_label": "qmd search engine"
+    },
+    {
+      "label": "MarkItDown",
+      "file_type": "document",
+      "source_file": "Pattern/Markitdown.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "pattern_markitdown_markitdown",
+      "community": 3,
+      "norm_label": "markitdown"
+    },
+    {
+      "label": "Graphify",
+      "file_type": "document",
+      "source_file": "Pattern/Graphify.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "pattern_graphify_graphify",
+      "community": 1,
+      "norm_label": "graphify"
+    },
+    {
+      "label": "Spec Kit",
+      "file_type": "document",
+      "source_file": "Pattern/Speckit.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "pattern_speckit_spec_kit",
+      "community": 7,
+      "norm_label": "spec kit"
+    },
+    {
+      "label": "Spec-Driven Development",
+      "file_type": "concept",
+      "source_file": "Pattern/Speckit.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "pattern_speckit_spec_driven_development",
+      "community": 7,
+      "norm_label": "spec-driven development"
+    },
+    {
+      "label": "Travel Knowledge Base (Project)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_travel_knowledge_base",
+      "community": 3,
+      "norm_label": "travel knowledge base (project)"
+    },
+    {
+      "label": "raw/ Immutable Sources",
+      "file_type": "document",
+      "source_file": "raw/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "raw_readme_raw_sources",
+      "community": 3,
+      "norm_label": "raw/ immutable sources"
+    },
+    {
+      "label": "Destination Page Type",
+      "file_type": "document",
+      "source_file": "templates/destination.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "templates_destination_destination_page",
+      "community": 0,
+      "norm_label": "destination page type"
+    },
+    {
+      "label": "Trip Page Type",
+      "file_type": "document",
+      "source_file": "templates/trip.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "templates_trip_trip_page",
+      "community": 0,
+      "norm_label": "trip page type"
+    },
+    {
+      "label": "Entity Page Type",
+      "file_type": "document",
+      "source_file": "templates/entity.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "templates_entity_entity_page",
+      "community": 0,
+      "norm_label": "entity page type"
+    },
+    {
+      "label": "Concept Page Type",
+      "file_type": "document",
+      "source_file": "templates/concept.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "templates_concept_concept_page",
+      "community": 0,
+      "norm_label": "concept page type"
+    },
+    {
+      "label": "Source Page Type",
+      "file_type": "document",
+      "source_file": "templates/source.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "templates_source_source_page",
+      "community": 0,
+      "norm_label": "source page type"
+    },
+    {
+      "label": "Synthesis Page Type",
+      "file_type": "document",
+      "source_file": "templates/synthesis.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "templates_synthesis_synthesis_page",
+      "community": 0,
+      "norm_label": "synthesis page type"
+    },
+    {
+      "label": "Index (index.md)",
+      "file_type": "document",
+      "source_file": "wiki/index.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_index_index",
+      "community": 5,
+      "norm_label": "index (index.md)"
+    },
+    {
+      "label": "Log (log.md)",
+      "file_type": "document",
+      "source_file": "wiki/log.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_log_log",
+      "community": 5,
+      "norm_label": "log (log.md)"
+    },
+    {
+      "label": "Overview (overview.md)",
+      "file_type": "document",
+      "source_file": "wiki/overview.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_overview_overview",
+      "community": 0,
+      "norm_label": "overview (overview.md)"
+    }
+  ],
+  "links": [
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_schema_layer",
+      "target": "claude_md_travel_knowledge_base_schema"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_travel_knowledge_base_schema",
+      "target": "claude_md_ingest_operation"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_travel_knowledge_base_schema",
+      "target": "claude_md_lint_operation"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_travel_knowledge_base_schema",
+      "target": "claude_md_query_operation"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_travel_knowledge_base_schema",
+      "target": "claude_md_three_layer_architecture"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_travel_knowledge_base_schema",
+      "target": "llmwiki_llm_wiki_pattern"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_travel_knowledge_base",
+      "target": "claude_md_travel_knowledge_base_schema"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_three_layer_architecture",
+      "target": "claude_md_raw_sources_layer"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_three_layer_architecture",
+      "target": "claude_md_schema_layer"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_three_layer_architecture",
+      "target": "claude_md_wiki_layer"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_three_layer_architecture",
+      "target": "llmwiki_llm_wiki_pattern"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_raw_sources_layer",
+      "target": "pattern_markitdown_markitdown"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_raw_sources_layer",
+      "target": "raw_readme_raw_sources"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_wiki_layer",
+      "target": "templates_concept_concept_page"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_wiki_layer",
+      "target": "templates_destination_destination_page"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_wiki_layer",
+      "target": "templates_entity_entity_page"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_wiki_layer",
+      "target": "templates_source_source_page"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_wiki_layer",
+      "target": "templates_synthesis_synthesis_page"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_wiki_layer",
+      "target": "templates_trip_trip_page"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_wiki_layer",
+      "target": "wiki_index_index"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_wiki_layer",
+      "target": "wiki_log_log"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_wiki_layer",
+      "target": "wiki_overview_overview"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_ingest_operation",
+      "target": "pattern_markitdown_markitdown"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_ingest_operation",
+      "target": "templates_source_source_page"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_ingest_operation",
+      "target": "wiki_index_index"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_ingest_operation",
+      "target": "wiki_log_log"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_query_operation",
+      "target": "llmwiki_qmd"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_query_operation",
+      "target": "templates_synthesis_synthesis_page"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_query_operation",
+      "target": "wiki_index_index"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_bookkeeping_principle",
+      "target": "llmwiki_persistent_compounding_artifact"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_md_obsidian_conventions",
+      "target": "llmwiki_obsidian"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Pattern/llmwiki.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "llmwiki_llm_wiki_pattern",
+      "target": "llmwiki_memex"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Pattern/llmwiki.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "llmwiki_llm_wiki_pattern",
+      "target": "llmwiki_obsidian"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Pattern/llmwiki.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "llmwiki_llm_wiki_pattern",
+      "target": "llmwiki_persistent_compounding_artifact"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Pattern/llmwiki.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "llmwiki_llm_wiki_pattern",
+      "target": "llmwiki_qmd"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "Pattern/Graphify.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "pattern_graphify_graphify",
+      "target": "llmwiki_llm_wiki_pattern"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_travel_knowledge_base",
+      "target": "llmwiki_llm_wiki_pattern"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/log.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_log_log",
+      "target": "llmwiki_llm_wiki_pattern"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Pattern/llmwiki.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "llmwiki_persistent_compounding_artifact",
+      "target": "llmwiki_rag"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "Pattern/Graphify.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "pattern_graphify_graphify",
+      "target": "pattern_markitdown_markitdown"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "raw_readme_raw_sources",
+      "target": "pattern_markitdown_markitdown"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_travel_knowledge_base",
+      "target": "pattern_markitdown_markitdown"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Pattern/Speckit.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "pattern_speckit_spec_kit",
+      "target": "pattern_speckit_spec_driven_development"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_travel_knowledge_base",
+      "target": "wiki_index_index"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "templates/source.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "templates_source_source_page",
+      "target": "raw_readme_raw_sources"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "templates/concept.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "templates_concept_concept_page",
+      "target": "templates_destination_destination_page"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "templates/destination.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "templates_destination_destination_page",
+      "target": "templates_entity_entity_page"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "templates/destination.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "templates_destination_destination_page",
+      "target": "templates_trip_trip_page"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "templates/source.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "templates_source_source_page",
+      "target": "templates_destination_destination_page"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "templates/concept.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "templates_concept_concept_page",
+      "target": "templates_trip_trip_page"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "templates/entity.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "templates_entity_entity_page",
+      "target": "templates_trip_trip_page"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "templates/synthesis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "templates_synthesis_synthesis_page",
+      "target": "wiki_overview_overview"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/index.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_index_index",
+      "target": "wiki_log_log"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/index.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_index_index",
+      "target": "wiki_overview_overview"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "three_layer_architecture_stack",
+      "label": "Three-Layer Architecture (raw/wiki/schema)",
+      "nodes": [
+        "claude_md_raw_sources_layer",
+        "claude_md_wiki_layer",
+        "claude_md_schema_layer"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "CLAUDE.md"
+    },
+    {
+      "id": "wiki_operations_flow",
+      "label": "Wiki Operations (ingest/query/lint)",
+      "nodes": [
+        "claude_md_ingest_operation",
+        "claude_md_query_operation",
+        "claude_md_lint_operation"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "CLAUDE.md"
+    },
+    {
+      "id": "wiki_page_types",
+      "label": "Wiki Page Types",
+      "nodes": [
+        "templates_destination_destination_page",
+        "templates_trip_trip_page",
+        "templates_entity_entity_page",
+        "templates_concept_concept_page",
+        "templates_source_source_page",
+        "templates_synthesis_synthesis_page"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "CLAUDE.md"
+    }
+  ]
+}

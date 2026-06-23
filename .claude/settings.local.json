@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv --version)",
+      "Bash(pip3 --version)",
+      "Bash(uv venv *)",
+      "Bash(uv pip *)",
+      "Bash(.venv/bin/markitdown --version)",
+      "Bash(.venv/bin/python -c \"from markitdown import MarkItDown; print\\('import OK'\\)\")",
+      "Bash(.venv/bin/markitdown Pattern/Markitdown.md)",
+      "Bash(.venv/bin/markitdown /tmp/test.csv)",
+      "Bash(brew install *)",
+      "Bash(ffmpeg -version)",
+      "Bash(grep -v '^\\\\.$')",
+      "Bash(graphify --version)",
+      "Bash(uv tool *)",
+      "Read(//Users/tungnguyen/.claude/skills/graphify/**)",
+      "Bash(graphify install *)",
+      "Bash(awk '/^## \\(God|Surprising|Suggested\\)/{p=1} /^## /{if\\(p && $0 !~ /God|Surprising|Suggested/ && seen\\){p=0}} p{print} /God|Surprising|Suggested/{seen=1}' graphify-out/GRAPH_REPORT.md)",
+      "Bash(timeout 90 .venv/bin/python raw/converted/.poc_flights.py)",
+      "Bash(.venv/bin/python raw/converted/.poc_flights.py)",
+      "Bash(.venv/bin/python -c \"import fast_flights as f; print\\([n for n in dir\\(f\\) if not n.startswith\\('__'\\)]\\)\")",
+      "Bash(.venv/bin/python -c ' *)",
+      "Bash(.venv/bin/python -c \"from fast_flights import get_flights; print\\(\\(get_flights.__doc__ or ''\\)[:600]\\)\")",
+      "Bash(git init *)",
+      "Bash(git config *)",
+      "Bash(git check-ignore *)",
+      "Bash(git add *)"
+    ]
+  }
+}

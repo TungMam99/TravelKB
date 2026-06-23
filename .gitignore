@@ -1,0 +1,18 @@
+# Python virtualenv (MarkItDown + fast-flights)
+.venv/
+
+# macOS
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
+# === Dữ liệu nhạy cảm — KHÔNG commit (số TK ngân hàng vendor) ===
+raw/assets/SupplierList.xlsx
+raw/converted/supplier-list.md
+
+# Graphify local-only
+graphify-out/cost.json
+graphify-out/.graphify_python
+graphify-out/.graphify_root
