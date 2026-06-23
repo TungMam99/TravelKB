@@ -110,3 +110,29 @@ Phần tốn công của một KB không phải đọc hay nghĩ — mà là **b
 giữ tóm tắt cập nhật, ghi nhận khi dữ liệu mới mâu thuẫn dữ liệu cũ, giữ nhất quán across hàng chục
 trang. LLM không chán, không quên cập nhật một cross-reference, chạm 15 file trong một lượt. Wiki
 được duy trì vì chi phí duy trì gần bằng 0. Wiki giàu lên sau **mỗi nguồn** và **mỗi câu hỏi**.
+
+---
+
+## Tour Operator Extension (Spec 1)
+
+KB này phục vụ một **công ty lữ hành** (Hồng Ngọc Hà), người dùng là **sales copilot nội bộ**.
+Chi tiết đầy đủ: `docs/superpowers/specs/2026-06-23-travel-kb-design.md`. Quy ước bổ sung:
+
+**Mô hình 5 entity (Supplier-centric):**
+- `destination` · `supplier` ⭐ · `tour-product` (lịch trình mẫu) · `quote` (báo giá) · `concept`.
+- `wiki/suppliers/{airlines,hotels,transport,restaurants,guides,activities,dmc}/`,
+  `wiki/tours/{tour-products,quotes}/`.
+
+**Hybrid giá 3 tầng:**
+- 🟢 Giá hợp đồng theo mùa → `rate_sheets` trong frontmatter, **VND số nguyên**, có `valid_until`.
+- 🟡 Mọi giá có `valid_until` → khi báo giá, **flag giá hết hạn**.
+- 🔴 Real-time (chỗ trống; **giá vé máy bay**) → KHÔNG lưu. Airline: `category: airline` ⇒
+  **không** `rate_sheets`, đặt `price_source: "tool:fast-flights"`; giá lấy live qua fast-flights.
+
+**Quote:** bám mẫu `bao-gia-breakdown` (khách) + `chiet-tinh-gia-noi-bo` (giá vốn nội bộ).
+Markup theo [[concepts/markup-policy]]. **Không để LLM làm toán tiền** — dùng số từ `build/*.json`.
+
+**Build step (KB → Agent):** `build/extract_kb.py` trích frontmatter → `build/suppliers.json`
++ `build/tour-products.json`. Chạy lại sau mỗi lần sửa supplier/tour. Đây là **data contract** cho Agent (Spec 2).
+
+**Gap đang mở:** chưa có entity `client` (hợp đồng khách B2B như TET) — sẽ bổ sung ở bản cập nhật Spec.

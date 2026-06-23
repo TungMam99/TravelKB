@@ -25,7 +25,10 @@
       "Bash(git init *)",
       "Bash(git config *)",
       "Bash(git check-ignore *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit -q -m ' *)",
+      "Bash(.venv/bin/python -c \"import yaml\")",
+      "Bash(.venv/bin/python build/extract_kb.py)"
     ]
   }
 }

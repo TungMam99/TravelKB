@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "bangkok-pattaya-5n4d",
+    "theme": "city + biển (Thái Lan)",
+    "destinations": [
+      "[[destinations/bangkok]]"
+    ],
+    "duration_days": 5,
+    "nights": 4,
+    "default_suppliers": [
+      "[[suppliers/airlines/vietjet]]"
+    ]
+  }
+]

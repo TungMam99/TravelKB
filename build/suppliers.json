@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "vietjet",
+    "short_name": "VJ",
+    "category": "airline",
+    "location": null,
+    "price_source": "tool:fast-flights",
+    "rate_sheets": null,
+    "commission": "Chưa xác nhận — cập nhật từ hợp đồng đại lý vé",
+    "quality_rating": null
+  },
+  {
+    "slug": "best-western-sonasea-phu-quoc",
+    "short_name": "BWSonasea",
+    "category": "hotel",
+    "location": "[[destinations/phu-quoc]]",
+    "price_source": null,
+    "rate_sheets": [
+      {
+        "season": "Tham chiếu 2022 (cần cập nhật)",
+        "valid_until": "2022-12-31",
+        "rates": {
+          "ROH (Run of House)": 1500000
+        }
+      }
+    ],
+    "commission": null,
+    "quality_rating": 4
+  },
+  {
+    "slug": "long-beach-phu-quoc",
+    "short_name": "LongBeachPQ",
+    "category": "transport",
+    "location": "[[destinations/phu-quoc]]",
+    "price_source": null,
+    "rate_sheets": [
+      {
+        "season": "Tham chiếu 2022 (cần cập nhật)",
+        "valid_until": "2022-12-31",
+        "rates": {
+          "Xe 45 chỗ / 4N3Đ": 13000000
+        }
+      }
+    ],
+    "commission": null,
+    "quality_rating": 4
+  }
+]
