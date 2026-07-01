@@ -5,14 +5,14 @@
     "semantic_hash": "26813ef79867b37ba456e02c6cc4542e"
   },
   ".claude/settings.local.json": {
-    "mtime": 1782227969.6524951,
-    "ast_hash": "098e85ab39ee9dce7f4b78b182cc98e7",
-    "semantic_hash": "098e85ab39ee9dce7f4b78b182cc98e7"
+    "mtime": 1782909026.5449848,
+    "ast_hash": "62b7fc707026e61c86c832f60a71fbec",
+    "semantic_hash": "62b7fc707026e61c86c832f60a71fbec"
   },
   "CLAUDE.md": {
-    "mtime": 1782227533.52506,
-    "ast_hash": "7595d07ee8cef9f9a85282e6d061b182",
-    "semantic_hash": "7595d07ee8cef9f9a85282e6d061b182"
+    "mtime": 1782231580.7537687,
+    "ast_hash": "3e242eb38016222f3b2dfe334105cbcd",
+    "semantic_hash": "3e242eb38016222f3b2dfe334105cbcd"
   },
   "Pattern/Graphify.md": {
     "mtime": 1782225505.2408686,
@@ -75,18 +75,343 @@
     "semantic_hash": "fcbfb8c5696bc8a32cc42a0313234ceb"
   },
   "wiki/index.md": {
-    "mtime": 1782227545.634217,
-    "ast_hash": "43cbc14704003c230c0f68daa32cb064",
-    "semantic_hash": "43cbc14704003c230c0f68daa32cb064"
+    "mtime": 1782907980.9232783,
+    "ast_hash": "e5df6665cb6134cc255228cfe5bbbe80",
+    "semantic_hash": "e5df6665cb6134cc255228cfe5bbbe80"
   },
   "wiki/log.md": {
-    "mtime": 1782227554.070647,
-    "ast_hash": "2040820720e402eda2a05c108711e264",
-    "semantic_hash": "2040820720e402eda2a05c108711e264"
+    "mtime": 1782907993.693735,
+    "ast_hash": "811fbec9312aa32fc9396abfdfc0cc5c",
+    "semantic_hash": "811fbec9312aa32fc9396abfdfc0cc5c"
   },
   "wiki/overview.md": {
     "mtime": 1782227569.2978756,
     "ast_hash": "61664124c904a5114dcb35b3f0b7f7f4",
     "semantic_hash": "61664124c904a5114dcb35b3f0b7f7f4"
+  },
+  "agent/__init__.py": {
+    "mtime": 1782232702.5913184,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "agent/cli.py": {
+    "mtime": 1782232860.5980465,
+    "ast_hash": "f72dd0513566b3b12def0dfb6afcd7b4",
+    "semantic_hash": "f72dd0513566b3b12def0dfb6afcd7b4"
+  },
+  "agent/conversation.py": {
+    "mtime": 1782232847.8104272,
+    "ast_hash": "dc6d8fa9104beb802d09aeb5bb19321c",
+    "semantic_hash": "dc6d8fa9104beb802d09aeb5bb19321c"
+  },
+  "agent/demo.py": {
+    "mtime": 1782887553.5300615,
+    "ast_hash": "9247280b545a5c1095fdd2ced7f31f08",
+    "semantic_hash": "9247280b545a5c1095fdd2ced7f31f08"
+  },
+  "agent/flight.py": {
+    "mtime": 1782232960.8028367,
+    "ast_hash": "0bb2e33b313b2988dd0f66ce7bbf5bad",
+    "semantic_hash": "0bb2e33b313b2988dd0f66ce7bbf5bad"
+  },
+  "agent/kb.py": {
+    "mtime": 1782232733.5220566,
+    "ast_hash": "a453ffee28f951263f6a720d9ba67dbd",
+    "semantic_hash": "a453ffee28f951263f6a720d9ba67dbd"
+  },
+  "agent/pricing.py": {
+    "mtime": 1782232718.3337548,
+    "ast_hash": "1c6392c334fc508a1465801d74402522",
+    "semantic_hash": "1c6392c334fc508a1465801d74402522"
+  },
+  "agent/prompts.py": {
+    "mtime": 1782232804.857179,
+    "ast_hash": "4f5cdede0846022df1c5fb5442f0697d",
+    "semantic_hash": "4f5cdede0846022df1c5fb5442f0697d"
+  },
+  "agent/selftest.py": {
+    "mtime": 1782233013.1483152,
+    "ast_hash": "9f4ce1644d5165e37013b8abeb435a9e",
+    "semantic_hash": "9f4ce1644d5165e37013b8abeb435a9e"
+  },
+  "agent/tools.py": {
+    "mtime": 1782232781.637114,
+    "ast_hash": "4e0664fdceab74f8ce53e89f15a13471",
+    "semantic_hash": "4e0664fdceab74f8ce53e89f15a13471"
+  },
+  "web/app.py": {
+    "mtime": 1782904129.5058827,
+    "ast_hash": "cb61aa9c45ab2a2059b3673421853a70",
+    "semantic_hash": "cb61aa9c45ab2a2059b3673421853a70"
+  },
+  "Pattern/Company/CompanyInfo.md": {
+    "mtime": 1782903160.5773113,
+    "ast_hash": "80e2e5a6dad842d0f224c0140fa0f066",
+    "semantic_hash": "80e2e5a6dad842d0f224c0140fa0f066"
+  },
+  "Pattern/GoogleFlightCrawer.md": {
+    "mtime": 1782230473.451688,
+    "ast_hash": "9c39e955c73d86b488d84275c638002d",
+    "semantic_hash": "9c39e955c73d86b488d84275c638002d"
+  },
+  "agent/README.md": {
+    "mtime": 1782233046.933439,
+    "ast_hash": "8484425c6f430cc174f21fca435b261e",
+    "semantic_hash": "8484425c6f430cc174f21fca435b261e"
+  },
+  "docs/superpowers/specs/2026-06-23-agent-design.md": {
+    "mtime": 1782232500.9725235,
+    "ast_hash": "50093476bcaa6713662bcfe23fd69392",
+    "semantic_hash": "50093476bcaa6713662bcfe23fd69392"
+  },
+  "docs/superpowers/specs/2026-06-23-travel-kb-design.md": {
+    "mtime": 1782230884.1568594,
+    "ast_hash": "5ac85f3550b2687651a1e92e218f2df3",
+    "semantic_hash": "5ac85f3550b2687651a1e92e218f2df3"
+  },
+  "docs/superpowers/specs/2026-06-24-website-design.md": {
+    "mtime": 1782235154.4839058,
+    "ast_hash": "a30c24c33bb15f221512c72559e14271",
+    "semantic_hash": "a30c24c33bb15f221512c72559e14271"
+  },
+  "graphify-out/converted/Bangkok - Pattaya 5 nga\u0300y_a38a9163.md": {
+    "mtime": 1782908158.7138734,
+    "ast_hash": "c6dde626f7cd53570afe9c08a6f77e37",
+    "semantic_hash": "c6dde626f7cd53570afe9c08a6f77e37"
+  },
+  "graphify-out/converted/Ba\u0309ng Chie\u0302\u0301t ti\u0301nh & Quye\u0302\u0301t toa\u0301n ke\u0302\u0301t thu\u0301c Tour_b0b1a38c.md": {
+    "mtime": 1782908158.8247843,
+    "ast_hash": "71a0f3f5c229bb47ffc830938b5e2cf6",
+    "semantic_hash": "71a0f3f5c229bb47ffc830938b5e2cf6"
+  },
+  "graphify-out/converted/MA\u0302\u0303U TEMPLATE LAY GIA HOTEL KHACH CORP_386c2f74.md": {
+    "mtime": 1782908158.8281844,
+    "ast_hash": "86f9d5c4cab58d1158387b88af367ce7",
+    "semantic_hash": "86f9d5c4cab58d1158387b88af367ce7"
+  },
+  "graphify-out/converted/ba\u0309ng ba\u0301o gia\u0301  break down cho khach hang_52cfbb14.md": {
+    "mtime": 1782908158.837412,
+    "ast_hash": "8609d922d1d5acc9b35c4b4c16297b33",
+    "semantic_hash": "8609d922d1d5acc9b35c4b4c16297b33"
+  },
+  "graphify-out/converted/\u0110XDG THAILAND 5N4D_b5886350.md": {
+    "mtime": 1782908158.847075,
+    "ast_hash": "b97e709182f85498b1c8d92b13aa0cf2",
+    "semantic_hash": "b97e709182f85498b1c8d92b13aa0cf2"
+  },
+  "raw/assets/FITTrour2026.md": {
+    "mtime": 1782876293.3869894,
+    "ast_hash": "0e0aecf920b6e79a92160849358a3466",
+    "semantic_hash": "0e0aecf920b6e79a92160849358a3466"
+  },
+  "raw/converted/bangkok-pattaya-5-ngay.md": {
+    "mtime": 1782229544.8698683,
+    "ast_hash": "e00810e13ae6c6241992c350c2196c42",
+    "semantic_hash": "e00810e13ae6c6241992c350c2196c42"
+  },
+  "raw/converted/bangkok-pattaya-5n4d.md": {
+    "mtime": 1782839282.2101712,
+    "ast_hash": "35a6d7356cb304ec9540681b3c5b6d62",
+    "semantic_hash": "35a6d7356cb304ec9540681b3c5b6d62"
+  },
+  "raw/converted/bao-gia-breakdown-khach-hang.md": {
+    "mtime": 1782229543.5257978,
+    "ast_hash": "50004c6bd5966cead4abc7fc957a7d22",
+    "semantic_hash": "50004c6bd5966cead4abc7fc957a7d22"
+  },
+  "raw/converted/chiet-tinh-quyet-toan-tour.md": {
+    "mtime": 1782229544.3618793,
+    "ast_hash": "4e063db2474bd80f4ac495092b1d69a8",
+    "semantic_hash": "4e063db2474bd80f4ac495092b1d69a8"
+  },
+  "raw/converted/dxd-thailand-5n4d.md": {
+    "mtime": 1782839342.0363817,
+    "ast_hash": "395ed933f59494d34057eed92e83e505",
+    "semantic_hash": "395ed933f59494d34057eed92e83e505"
+  },
+  "raw/converted/dxdg-thailand-5n4d.md": {
+    "mtime": 1782839356.8285942,
+    "ast_hash": "11f1d937aa8ef0925d8f33d071270e44",
+    "semantic_hash": "11f1d937aa8ef0925d8f33d071270e44"
+  },
+  "raw/converted/fit-tour-tst-2026.md": {
+    "mtime": 1782876622.3407228,
+    "ast_hash": "79b0b7cf66f5a37156fa18e086c62ef7",
+    "semantic_hash": "79b0b7cf66f5a37156fa18e086c62ef7"
+  },
+  "raw/converted/hd-muong-thanh-can-tho.md": {
+    "mtime": 1782231713.2362719,
+    "ast_hash": "6884d74f02e33cff0c81c38ccfddf707",
+    "semantic_hash": "6884d74f02e33cff0c81c38ccfddf707"
+  },
+  "raw/converted/template-lay-gia-hotel-corp.md": {
+    "mtime": 1782229543.115764,
+    "ast_hash": "2371a47ae48d00c730a31bd7414d87fe",
+    "semantic_hash": "2371a47ae48d00c730a31bd7414d87fe"
+  },
+  "raw/converted/tst-tour-details-2026.md": {
+    "mtime": 1782899305.255896,
+    "ast_hash": "b4026505a997ac83ddb4da0b4cf0073f",
+    "semantic_hash": "b4026505a997ac83ddb4da0b4cf0073f"
+  },
+  "templates/quote.md": {
+    "mtime": 1782231235.7919657,
+    "ast_hash": "e4c4dec71ce4e8eebb849a8e4998410b",
+    "semantic_hash": "e4c4dec71ce4e8eebb849a8e4998410b"
+  },
+  "templates/supplier.md": {
+    "mtime": 1782231203.8667998,
+    "ast_hash": "b9d0be53fee7db042b7e5fe5b316ea7f",
+    "semantic_hash": "b9d0be53fee7db042b7e5fe5b316ea7f"
+  },
+  "templates/tour-product.md": {
+    "mtime": 1782231222.8538272,
+    "ast_hash": "ef4ec9deaedf89d868ce6b765981acfa",
+    "semantic_hash": "ef4ec9deaedf89d868ce6b765981acfa"
+  },
+  "web/README.md": {
+    "mtime": 1782235313.8799474,
+    "ast_hash": "61c5f5df14a401b74048c446d8fdc911",
+    "semantic_hash": "61c5f5df14a401b74048c446d8fdc911"
+  },
+  "wiki/concepts/markup-policy-trinh-ky.html": {
+    "mtime": 1782907367.5256648,
+    "ast_hash": "2768deb26e81dceaca340257dd4b51b5",
+    "semantic_hash": "2768deb26e81dceaca340257dd4b51b5"
+  },
+  "wiki/concepts/markup-policy.md": {
+    "mtime": 1782907953.4966886,
+    "ast_hash": "e8d829a1f0d3f5bad043ea138fb8fcaf",
+    "semantic_hash": "e8d829a1f0d3f5bad043ea138fb8fcaf"
+  },
+  "wiki/destinations/bali.md": {
+    "mtime": 1782901179.157934,
+    "ast_hash": "8f8f6cd784217692d5471946c7d4c8a5",
+    "semantic_hash": "8f8f6cd784217692d5471946c7d4c8a5"
+  },
+  "wiki/destinations/bangkok.md": {
+    "mtime": 1782875408.724482,
+    "ast_hash": "3ecdaf0f9964a163d2af22bb627ff1f6",
+    "semantic_hash": "3ecdaf0f9964a163d2af22bb627ff1f6"
+  },
+  "wiki/destinations/can-tho.md": {
+    "mtime": 1782231813.7345014,
+    "ast_hash": "970f1669ab60eeea2eee41326960297d",
+    "semantic_hash": "970f1669ab60eeea2eee41326960297d"
+  },
+  "wiki/destinations/phu-quoc.md": {
+    "mtime": 1782907895.8270216,
+    "ast_hash": "e428c970653cf4f959cfa245f57e6835",
+    "semantic_hash": "e428c970653cf4f959cfa245f57e6835"
+  },
+  "wiki/entities/alcazar-show.md": {
+    "mtime": 1782875354.775529,
+    "ast_hash": "7926bc2263bd29676b77b971ed6b81d9",
+    "semantic_hash": "7926bc2263bd29676b77b971ed6b81d9"
+  },
+  "wiki/sources/bangkok-pattaya-5-ngay.md": {
+    "mtime": 1782231395.5297687,
+    "ast_hash": "fb916da78363c537035865ea590c48e5",
+    "semantic_hash": "fb916da78363c537035865ea590c48e5"
+  },
+  "wiki/sources/bangkok-pattaya-5n4d-tst-tourist.md": {
+    "mtime": 1782875300.8639553,
+    "ast_hash": "dee78e52e56600616dd1f369d8ea08a1",
+    "semantic_hash": "dee78e52e56600616dd1f369d8ea08a1"
+  },
+  "wiki/sources/dxdg-thailand-5n4d-oct2026.md": {
+    "mtime": 1782875320.9427946,
+    "ast_hash": "cda8a24d28f709628280d13d4de2c2aa",
+    "semantic_hash": "cda8a24d28f709628280d13d4de2c2aa"
+  },
+  "wiki/sources/fit-tour-tst-2026.md": {
+    "mtime": 1782876641.183822,
+    "ast_hash": "0b3f29d51c81a0b8c18cd4329df21c70",
+    "semantic_hash": "0b3f29d51c81a0b8c18cd4329df21c70"
+  },
+  "wiki/sources/hd-muong-thanh-can-tho.md": {
+    "mtime": 1782231839.6888583,
+    "ast_hash": "f834df06387a2ea783233b0a67aa85fb",
+    "semantic_hash": "f834df06387a2ea783233b0a67aa85fb"
+  },
+  "wiki/sources/tst-tour-details-2026.md": {
+    "mtime": 1782903890.8324368,
+    "ast_hash": "959f92c3c0bad8f5cdea9a27ec016873",
+    "semantic_hash": "959f92c3c0bad8f5cdea9a27ec016873"
+  },
+  "wiki/suppliers/airlines/vietjet.md": {
+    "mtime": 1782231259.844508,
+    "ast_hash": "4d532d82b8cb67611c427034699ae2aa",
+    "semantic_hash": "4d532d82b8cb67611c427034699ae2aa"
+  },
+  "wiki/suppliers/hotels/best-western-sonasea-phu-quoc.md": {
+    "mtime": 1782907906.406522,
+    "ast_hash": "084338ebc33ab0260c85978af8eef22b",
+    "semantic_hash": "084338ebc33ab0260c85978af8eef22b"
+  },
+  "wiki/suppliers/hotels/muong-thanh-can-tho.md": {
+    "mtime": 1782231784.3623714,
+    "ast_hash": "ee1396d0461cb4026b25ecd4ce326091",
+    "semantic_hash": "ee1396d0461cb4026b25ecd4ce326091"
+  },
+  "wiki/suppliers/transport/long-beach-phu-quoc.md": {
+    "mtime": 1782907911.3106763,
+    "ast_hash": "36c26bdcaa672ebc34470804ffbfa709",
+    "semantic_hash": "36c26bdcaa672ebc34470804ffbfa709"
+  },
+  "wiki/synthesis/tst-tour-catalog-2026.md": {
+    "mtime": 1782903782.2174337,
+    "ast_hash": "568899b25c846b6f78495ab183534485",
+    "semantic_hash": "568899b25c846b6f78495ab183534485"
+  },
+  "wiki/tours/quotes/bali-5n4d-sep2026-2pax.html": {
+    "mtime": 1782903421.5142498,
+    "ast_hash": "935bc92cc0a8ce82aefc9cb7130f428b",
+    "semantic_hash": "935bc92cc0a8ce82aefc9cb7130f428b"
+  },
+  "wiki/tours/quotes/bali-5n4d-sep2026-2pax.md": {
+    "mtime": 1782903819.7773178,
+    "ast_hash": "bacc75ae25bc121062cfaba42fd2ed65",
+    "semantic_hash": "bacc75ae25bc121062cfaba42fd2ed65"
+  },
+  "wiki/tours/quotes/bangkok-pattaya-5n4d-oct2026-noi-bo.md": {
+    "mtime": 1782875345.6530576,
+    "ast_hash": "1561bc43ca6a3f0c7574af527551a380",
+    "semantic_hash": "1561bc43ca6a3f0c7574af527551a380"
+  },
+  "wiki/tours/quotes/bangkok-pattaya-land-rate-2026.md": {
+    "mtime": 1782888822.6904573,
+    "ast_hash": "c2cb1e10ebb4c0621265c6edb8bf8121",
+    "semantic_hash": "c2cb1e10ebb4c0621265c6edb8bf8121"
+  },
+  "wiki/tours/quotes/dxdg-bangkok-pattaya-5n4d-aug2026-2pax.md": {
+    "mtime": 1782903820.5762794,
+    "ast_hash": "49bd73a3fc043d796cd0d03655e05ea7",
+    "semantic_hash": "49bd73a3fc043d796cd0d03655e05ea7"
+  },
+  "wiki/tours/quotes/phu-quoc-3n2d-2pax-thang06-2026.md": {
+    "mtime": 1782903857.9812057,
+    "ast_hash": "8cfb7be0f08287fc9cc2a83ac186f1ec",
+    "semantic_hash": "8cfb7be0f08287fc9cc2a83ac186f1ec"
+  },
+  "wiki/tours/tour-products/bali-5n4d.md": {
+    "mtime": 1782903822.0858302,
+    "ast_hash": "6ede3b5032ab362cdabc597789b1d518",
+    "semantic_hash": "6ede3b5032ab362cdabc597789b1d518"
+  },
+  "wiki/tours/tour-products/bangkok-pattaya-5n4d.md": {
+    "mtime": 1782903888.9503646,
+    "ast_hash": "82aceb7a3f6715a6f7ead414e9498e7c",
+    "semantic_hash": "82aceb7a3f6715a6f7ead414e9498e7c"
+  },
+  "raw/assets/BANGKOK - PATTAYA 5N4D.pdf": {
+    "mtime": 1782283783.8015423,
+    "ast_hash": "5f2b86cc030ee71f042e3320874c0d03",
+    "semantic_hash": "5f2b86cc030ee71f042e3320874c0d03"
+  },
+  "Pattern/Company/TSTlogo.webp": {
+    "mtime": 1782902081.6751125,
+    "ast_hash": "bc72143dceb352f5cfb785e55605b30a",
+    "semantic_hash": "bc72143dceb352f5cfb785e55605b30a"
   }
 }
