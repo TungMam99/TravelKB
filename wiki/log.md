@@ -68,6 +68,14 @@ chat UI + save-gate bằng nút Duyệt/Không + sidebar (model, KB stats). Cài
 Smoke test: py_compile sạch, app boot headless HTTP 200 + health ok, không lỗi. Tái dùng 100% agent.Session.
 → Cả 3 lớp platform đã có Spec + code.
 
+## [2026-07-01] maintain | Draft markup policy v1.0 (chờ lãnh đạo duyệt)
+Phân tích 4 tour thực tế (Phú Quốc 44 pax 11,76%; BKK-PTY 15 pax 10,09%; BKK FIT 6,31%; Bali FIT 5%).
+Xây chính sách phân tầng theo phân khúc: đoàn lớn nội địa 12–15%, đoàn lớn QT 10–12%,
+đoàn nhỏ 8–10%, FIT chuẩn 6–8%, FIT VIP sàn 5%. Land markup 20%, Air markup 3%, VAT 8%.
+Dự phòng thưởng KD 1–1,5%. Ngưỡng cảnh báo Agent: ≥10% OK, 7–9,9% flag, 5–6,9% GĐ ký, <5% block.
+Ghi vào `wiki/concepts/markup-policy.md` dạng draft (`confirmed: false`).
+→ Chờ lãnh đạo điền checklist + ký duyệt → set `confirmed: true` → chạy lại `build/extract_kb.py`.
+
 ## [2026-07-01] maintain | Xóa toàn bộ dữ liệu nguồn Hồng Ngọc Hà
 Dọn dẹp 2 nguồn HNH không còn phù hợp với phạm vi KB TST Tourist:
 - **contract-tet-hong-ngoc-ha-2022**: HĐ khách B2B nội bộ HNH (không phải supplier data); đã flagged là gap model ngay lúc ingest.
