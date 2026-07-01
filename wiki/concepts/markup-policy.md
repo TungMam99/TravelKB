@@ -35,7 +35,7 @@ draft_policy:
     fit_vip:         { max_pax: 9,  intl: true,  target_margin: [0.05, 0.06], requires_director_approval: true }
 
 updated: 2026-07-01
-sources: ["[[sources/chiet-tinh-gia-noi-bo]]"]
+sources: ["[[sources/dxdg-thailand-5n4d-oct2026]]", "[[sources/bangkok-pattaya-5n4d-tst-tourist]]"]
 ---
 
 # Markup Policy — Công thức giá bán
@@ -49,23 +49,22 @@ sources: ["[[sources/chiet-tinh-gia-noi-bo]]"]
 
 | | |
 |-|-|
-| **Số liệu đang áp dụng** | 11,76% (gồm vé) / 19,22% (chưa vé) — từ 1 tour Phú Quốc 2022 |
+| **Số liệu đang áp dụng** | Chưa có chính sách chính thức — đang dùng markup-policy tạm |
 | **Draft chính sách mới** | v1.0 (07/2026) — phân tầng theo phân khúc khách |
 | **Cần duyệt bởi** | Giám đốc / Lãnh đạo tài chính |
 | **Áp dụng khi** | `confirmed: true` được set trong frontmatter |
 
 ---
 
-## Phân tích cơ sở — Dữ liệu thực tế 4 tour
+## Phân tích cơ sở — Dữ liệu thực tế 3 tour (2026)
 
 | Tour | Pax | Margin thực tế | Ghi chú |
 |------|-----|---------------|---------|
-| Phú Quốc 4N3Đ (Aug 2022) | 44 NL | **11,76%** | Nội địa, đoàn lớn; vé chiếm 46% |
 | Bangkok-Pattaya 5N4Đ (Oct 2026) | 15+1 | **10,09%** | Quốc tế, đoàn TB; vé chiếm 70,6% |
 | Bangkok-Pattaya FIT (Aug 2026) | 2 pax | **6,31%** | FIT, peak season |
 | Bali 5N4Đ FIT pilot (Sep 2026) | 2 pax | **5,00%** | FIT, deal cạnh tranh, shoulder |
 
-→ Margin thực tế dao động **5–12%** tùy phân khúc và tỷ trọng vé.
+→ Margin thực tế dao động **5–10%** tùy phân khúc và tỷ trọng vé.
 
 ---
 
@@ -130,12 +129,11 @@ Từ dữ liệu Bangkok Oct 2026: thưởng = 2.579.743 ÷ 253.200.000 = **1,02
 
 ## Cách Agent áp dụng hiện tại (trước khi confirmed)
 
-1. Giá vốn land → nhân **(1 / (1 − 0,1922))** ≈ markup 19,22% (số cũ).
+1. Giá vốn land → nhân markup tạm (chờ chính sách được duyệt).
 2. Vé máy bay = giá live (fast-flights) — pass-through, không markup riêng.
-3. Cộng VAT 8%. Kiểm tra margin tổng ≈ 11–12% (gồm vé).
-4. Nếu margin < 11,76% → **flag cảnh báo** cho sales review.
+3. Cộng VAT 8%. Flag cảnh báo nếu margin thấp hơn ngưỡng mong đợi.
 
-_Sau khi `confirmed: true`: Agent chuyển sang công thức Draft v1.0 phân tầng theo phân khúc._
+_Sau khi `confirmed: true`: Agent chuyển sang công thức Draft v1.0 phân tầng theo phân khúc (Land 20%, Air 3%)._
 
 ---
 
@@ -155,5 +153,5 @@ _Sau khi điền xong → báo team kỹ thuật set `confirmed: true` và cập
 ## Liên kết
 
 - Áp dụng: [[tours/quotes/bali-5n4d-sep2026-2pax]] · [[tours/quotes/dxdg-bangkok-pattaya-5n4d-aug2026-2pax]] · [[tours/quotes/bangkok-pattaya-5n4d-oct2026-noi-bo]]
-- Dữ liệu gốc: [[sources/chiet-tinh-gia-noi-bo]] · [[tours/quotes/phu-quoc-nhat-huy-khang-2022-08]]
+- Dữ liệu gốc: [[sources/dxdg-thailand-5n4d-oct2026]] · [[sources/bangkok-pattaya-5n4d-tst-tourist]]
 - Build artifact: `build/markup-policy.json` (cần chạy lại sau khi confirmed)

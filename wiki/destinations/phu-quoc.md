@@ -6,25 +6,30 @@ country: "Việt Nam"
 tags: [destination]
 visited: true
 best_seasons: ["Tháng 11–4 (khô, đẹp nhất)"]
-updated: 2026-06-23
-sources: ["[[sources/chiet-tinh-gia-noi-bo]]"]
+updated: 2026-07-01
 ---
 
 # Phú Quốc
 
 > Đảo lớn nhất VN, biển + resort + vui chơi (Vinpearl Safari, Hòn Thơm, Sun World). Mạnh cho đoàn & team building.
 
-## Điểm nổi bật (từ tour thật)
+## Điểm nổi bật
+
 - **Vinpearl Safari**, **cáp treo Hòn Thơm** (dài nhất TG), **Sun World**, **đảo San Hô**, **Làng Chài Hàm Ninh**.
 
 ## Ẩm thực (NCC đã dùng)
+
 - Hải sản **Hạnh Nhung Luxury**, Almaz, Marina, Bách Phú An, Monaco, Cơm Bắc Suối Đá.
 
 ## Lưu trú
-- [[suppliers/hotels/best-western-sonasea-phu-quoc]] (resort đoàn lớn).
+
+- [[suppliers/hotels/best-western-sonasea-phu-quoc]] (resort 4-5*, phù hợp đoàn lớn).
 
 ## Di chuyển
-- Bay thẳng **SGN-PQC** (~3.450.000 giá đoàn 2022, [[suppliers/airlines/vietjet]]). Xe đoàn: [[suppliers/transport/long-beach-phu-quoc]].
+
+- Bay thẳng **SGN-PQC** ([[suppliers/airlines/vietjet]]). Xe đoàn tại đảo: [[suppliers/transport/long-beach-phu-quoc]].
+- ⚠️ Giá vé & thuê xe cần lấy lại từ nhà cung cấp — tham chiếu 2022 đã hết hiệu lực.
 
 ## Liên kết
-- Chuyến đi: [[tours/quotes/phu-quoc-nhat-huy-khang-2022-08]]
+
+- Quote hiện hành: [[tours/quotes/phu-quoc-3n2d-2pax-thang06-2026]]

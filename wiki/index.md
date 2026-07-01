@@ -1,8 +1,8 @@
 ---
 type: index
 updated: 2026-07-01
-source_count: 7
-page_count: 24
+source_count: 6
+page_count: 22
 ---
 
 # Index — Travel Knowledge Base (Tour Operator)
@@ -31,12 +31,12 @@ Dòng thời gian: [[log]] · Bức tranh tổng: [[overview]] · Schema: `CLAUD
   - [[tours/tour-products/bangkok-pattaya-5n4d]] — Bangkok-Pattaya 5N4Đ (2 biến thể: lịch trình tham chiếu 2022 + TST 2026).
   - [[tours/tour-products/bali-5n4d]] *(draft)* — Bali 5N4Đ: Nusa Penida + Ubud + Uluwatu. Chưa có HĐ DMC.
 - **Quotes:**
-  - [[tours/quotes/phu-quoc-nhat-huy-khang-2022-08]] — đoàn 44 khách Phú Quốc, lãi 56,9tr (margin 11,76%).
+  - [[tours/quotes/phu-quoc-3n2d-2pax-thang06-2026]] — Phú Quốc 3N2Đ, 2 pax, tháng 6/2026.
   - [[tours/quotes/bangkok-pattaya-5n4d-oct2026-noi-bo]] 🔒 — chiết tính nội bộ BKK-PTY Oct 2026, 15 pax, margin 10,09%.
   - [[tours/quotes/bali-5n4d-sep2026-2pax]] 🔒 — đề nghị duyệt giá Bali 5N4Đ Sep 2026, 2 pax, margin **5%** (thấp/cạnh tranh).
 
 ## 💡 Concepts
-- [[concepts/markup-policy]] — markup 11,76% (gồm vé) / 19,22% (chưa vé), thuế 8%.
+- [[concepts/markup-policy]] — Draft v1.0 phân tầng: Land 20%, Air 3%, VAT 8% (chờ lãnh đạo duyệt).
 
 ## 📚 Sources
 - [[sources/bangkok-pattaya-5-ngay]] — brochure tour Thái tham chiếu (2022).
@@ -44,7 +44,6 @@ Dòng thời gian: [[log]] · Bức tranh tổng: [[overview]] · Schema: `CLAUD
 - [[sources/dxdg-thailand-5n4d-oct2026]] 🔒 — chiết tính nội bộ BKK-PTY, 15 pax, Oct 2026.
 - [[sources/fit-tour-tst-2026]] — web crawl ~60 FIT tour TST Tourist (Á/Mỹ/Âu), 01/07/2026.
   - [[sources/tst-tour-details-2026]] — crawl chi tiết từng trang tour (giá, ngày KH, hãng bay, lịch trình), 01/07/2026.
-- [[sources/chiet-tinh-gia-noi-bo]] — chiết tính + quyết toán Phú Quốc (giá vốn thật).
 - [[sources/hd-muong-thanh-can-tho]] — 🔒 HĐ nguyên tắc Mường Thanh Cần Thơ (giá bảo mật).
 
 ## 🔗 Synthesis

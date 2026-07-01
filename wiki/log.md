@@ -106,3 +106,17 @@ Key findings:
 - Tây Âu hè vs thu-đông chênh 17tr (105.98 vs 88.98tr) cùng route
 - VIP Busan-Seoul Signiel 200tr/pax — segment luxury riêng biệt
 - Maldives chỉ 2 ngày/năm (10/09, 24/09)
+
+## [2026-07-01] maintain | Xuất phiếu trình ký markup policy (HTML)
+Tạo `wiki/concepts/markup-policy-trinh-ky.html` — phiếu trình ký A4, in được, branding TST Tourist.
+Nội dung: 6 section (Bối cảnh → Dữ liệu 4 tour → Công thức đề xuất → Checklist lãnh đạo điền tay
+→ Hiệu lực sau duyệt → Phê duyệt); 3 ô chữ ký (Người lập / Trưởng phòng / Giám đốc — ô GĐ màu orange).
+Ref: TST-POL-2026-001, Draft v1.0, 01/07/2026.
+→ In ra, lãnh đạo điền checklist + ký → báo kỹ thuật set `confirmed: true` trong markup-policy.md.
+
+## [2026-07-01] maintain | Loại bỏ dữ liệu Tour Phú Quốc 2022 (hết hiệu lực)
+Xóa 6 file nguồn từ tour Phú Quốc đoàn Nhật Huy Khang (Aug 2022):
+raw/assets: `Bang chiet tinh gia Nội Bộ.xlsx`, `Chuong trinh tham quan tour Phu Quoc goi khach.pdf`
+raw/converted: `chiet-tinh-gia-noi-bo.md`, `tour-phu-quoc-goi-khach.md`
+wiki: `sources/chiet-tinh-gia-noi-bo`, `tours/quotes/phu-quoc-nhat-huy-khang-2022-08`
+Cập nhật 5 trang: destinations/phu-quoc (giữ POI/NCC, xóa giá 2022), 2 supplier stubs (BWSonasea + LongBeach — xóa rate sheet cũ, note cần lấy giá CRM 2026), markup-policy (còn 3 data point 2026, xóa ref Phú Quốc 2022), index.md (source_count 7→6, page_count 24→22).
