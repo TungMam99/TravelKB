@@ -1,8 +1,8 @@
 ---
 type: index
 updated: 2026-07-01
-source_count: 8
-page_count: 24
+source_count: 9
+page_count: 25
 ---
 
 # Index — Travel Knowledge Base (Tour Operator)
@@ -41,13 +41,14 @@ Dòng thời gian: [[log]] · Bức tranh tổng: [[overview]] · Schema: `CLAUD
 - [[sources/bangkok-pattaya-5n4d-tst-tourist]] — brochure tour Thái (TST Tourist 2026, lịch trình biến thể).
 - [[sources/dxdg-thailand-5n4d-oct2026]] 🔒 — chiết tính nội bộ BKK-PTY, 15 pax, Oct 2026.
 - [[sources/fit-tour-tst-2026]] — web crawl ~60 FIT tour TST Tourist (Á/Mỹ/Âu), 01/07/2026.
+  - [[sources/tst-tour-details-2026]] — crawl chi tiết từng trang tour (giá, ngày KH, hãng bay, lịch trình), 01/07/2026.
 - [[sources/chiet-tinh-gia-noi-bo]] — chiết tính + quyết toán Phú Quốc (giá vốn thật).
 - [[sources/contract-tet-hong-ngoc-ha-2022]] — ⚠️ hợp đồng khách B2B (không phải supplier; lộ gap model).
 - [[sources/galaxy-3-bang-gia-phong-2023]] — bảng giá phòng Galaxy 3 (2023).
 - [[sources/hd-muong-thanh-can-tho]] — 🔒 HĐ nguyên tắc Mường Thanh Cần Thơ (giá bảo mật).
 
 ## 🔗 Synthesis
-- [[synthesis/tst-tour-catalog-2026]] — ~60 FIT tour TST Tourist 2026 (Á/Mỹ/Âu), benchmark giá + phân tích cạnh tranh.
+- [[synthesis/tst-tour-catalog-2026]] — ~80 FIT tour TST Tourist 2026 (Á/Mỹ/Âu), benchmark giá + phân tích cạnh tranh. Cập nhật với chi tiết ngày KH, hãng bay, pattern mùa vụ.
 
 ## 🛠 Build artifacts (KB → Agent)
 - `build/suppliers.json` (5, có field `confidential`) · `build/tour-products.json` (1) — sinh bởi `build/extract_kb.py`.

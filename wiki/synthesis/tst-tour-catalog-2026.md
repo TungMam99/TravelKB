@@ -3,43 +3,50 @@ type: synthesis
 title: "Danh mục tour TST Tourist 2026 — Phân tích cạnh tranh"
 tags: [synthesis, competitive-intel, tst-tourist]
 updated: 2026-07-01
-sources: ["[[sources/fit-tour-tst-2026]]"]
+sources: ["[[sources/fit-tour-tst-2026]]", "[[sources/tst-tour-details-2026]]"]
 ---
 
 # Danh mục FIT Tour TST Tourist 2026 — Phân tích cạnh tranh
 
-> Crawled 01/07/2026. ~60 sản phẩm FIT, 3 khu vực. Dùng làm tham chiếu cạnh tranh và benchmark giá.
+> Crawled 01/07/2026 (2 vòng). Vòng 1: ~60 URL danh sách. Vòng 2: crawl chi tiết từng trang (giá, ngày KH, hãng bay, lịch trình). Dùng làm tham chiếu cạnh tranh và benchmark giá.
 
 ---
 
 ## Châu Á — 36 tour
 
-### Thái Lan (3 tour)
-| Tour | Ngày | Giá FIT |
-|------|------|---------|
-| Thái Lan Sôi Động: Bangkok – Pattaya | 5N4Đ | **10.880.000** |
-| Chạm Mùa Xanh: Bangkok – Khao Yai | 4N3Đ | 13.980.000 |
-| (xem thêm trang khác) | | |
+### Thái Lan (2 tour) ~~3~~
+| Tour | Ngày | Giá FIT | Ngày KH 2026 | Hãng bay |
+|------|------|---------|-------------|---------|
+| Thái Lan Sôi Động: Bangkok – Pattaya | 5N4Đ | **10.880.000** | Sep–Dec (14 ngày) | Vietnam Airlines |
+| Chạm Mùa Xanh: Bangkok – Khao Yai | 4N3Đ | 13.980.000 | *(không ghi rõ)* | Vietnam Airlines |
+
+> ✏️ Đính chính: Crawl đầu ghi "3 tour" — sai. Chỉ có 2 tour Thái Lan unique trên tsttourist.com (Châu Á).
 
 → **⚠️ Giá FIT Bangkok-Pattaya 10.88tr thấp hơn 55% so với group tháng 10/2026 (16.88tr)** — xem phân tích bên dưới.
 
-### Nhật Bản (5 tour)
-| Tour | Ngày | Giá FIT |
-|------|------|---------|
-| Tokyo – Fuji – Nagoya – Osaka | 5N5Đ | 45.980.000 |
-| Tokyo – Fuji (mùa hè) | 5N4Đ | 45.080.000 |
-| Tokyo – Fuji (flagship) | 5N5Đ | 49.980.000 |
-| Osaka – Kobe – Yamanashi – Tokyo (mùa thu) | 6N5Đ | 45.680.000 |
-| Osaka – Kobe – Yamanashi – Tokyo (quý tộc) | 6N5Đ | 48.880.000 |
+### Nhật Bản (11 URL / 6 sản phẩm unique)
+| Tour | Ngày | Giá FIT | Mùa | Hãng bay |
+|------|------|---------|-----|---------|
+| Tokyo–Fuji–Nagoya–Osaka (3 biến thể giá) | 5N4Đ | 45.98–49.98tr | Xuân–Hè | Vietnam Airlines |
+| Tokyo–Fuji–Hakone (hè rực rỡ) | 5N4Đ | 45.080.000 | Jun–Aug | Vietnam Airlines |
+| Tokyo–Ibaraki–Utsunomiya–Nikko | 5N4Đ | 49.880.000 | Sep–Dec | Vietnam Airlines |
+| Osaka–Kobe–Yamanashi–Tokyo (4 biến thể) | 6N5Đ | 45.68–48.88tr | Hè + Thu | Vietnam Airlines |
+| Mùa Hè Xứ Phù Tang: Tokyo–Fuji–Kyoto–Kobe–Osaka | 7N6Đ | 45.980.000 | Jul–Aug | Vietnam Airlines |
+| Hokkaido Lavender (Sapporo) | 5N4Đ | **54.980.000** | Jun–Aug | Vietnam Airlines HN-Haneda |
 
-→ Nhật là segment giá cao nhất Châu Á (45-50tr), nhiều biến thể mùa vụ.
+→ Nhật là segment cao nhất Châu Á (45-55tr); 11 URL nhiều biến thể mùa nhưng ~6 sản phẩm unique.  
+→ Hokkaido 54.98tr là tour Nhật đắt nhất và duy nhất đi Hokkaido (vé qua Hà Nội).
 
-### Hàn Quốc (3 tour)
-| Tour | Ngày | Giá FIT |
-|------|------|---------|
-| Seoul – Nami – Lotte World | 5N4Đ | 24.980.000 |
-| Busan – Daegu – Gyeongju – Seoul | 5N4Đ | 29.880.000 |
-| Busan – Seoul (VIP cá nhân tinh hoa) | 5N4Đ | **200.000.000** |
+### Hàn Quốc (5 tour)
+| Tour | Ngày | Giá FIT | Mùa | Hãng bay |
+|------|------|---------|-----|---------|
+| Seoul–Nami–Lotte World–Starfield | 5N4Đ | 24.980.000 | Sep–Dec | Vietnam Airlines |
+| Seoul–Nami–Seorak–Gangwon | 5N4Đ | 26.880.000 | Oct–Dec | Vietnam Airlines |
+| Busan–Daegu–Gyeongju–Seoul (hè) | 5N4Đ | 29.880.000 | Jul–Aug | Vietnam Airlines |
+| Busan–Daegu–Gyeongju–Seoul (Quốc Khánh) | 5N4Đ | 33.680.000 | 01/09 | Vietnam Airlines |
+| **VIP Đẳng Cấp: Busan–Seoul** | 5N4Đ | **200.000.000** | Jun–Aug | *(cao cấp)* |
+
+> Ghi chú VIP 200tr: KS Signiel 5 sao (Busan + Seoul), KTX Business, tàu du lịch riêng, nhà hàng Michelin-starred. Đây là segment luxury B2C — không phải cạnh tranh trực tiếp.
 
 ### Trung Quốc (11 tour)
 | Tour | Ngày | Giá FIT |
@@ -132,6 +139,24 @@ Các điểm đến TST đang bán mà HNH chưa có wiki page:
 
 ---
 
+## Pattern mùa vụ — Insight quan trọng
+
+TST dùng **2 URL khác nhau cho cùng route, khác mùa** — giá và hãng bay có thể thay đổi:
+
+| Route | Mùa hè | Mùa thu-đông | Chênh giá |
+|-------|--------|-------------|-----------|
+| Pháp-Bỉ-Hà Lan-Đức | 105.98tr (VN Airlines) | 88.98tr (VN Airlines) | −17tr |
+| Pháp-Thụy Sĩ-Ý | 142.98tr (VN Airlines) | 142.98tr (Turkish) | cùng giá |
+| Ý-Croatia-Hungary | 126.98tr (VN Airlines) | 126.98tr (Turkish) | cùng giá |
+| Thụy Sĩ-Đức-Áo | 149.98tr | 149.98tr (Turkish) | cùng giá |
+| Bali | 15.68tr (VN Airlines) | 15.68tr (Vietjet) | cùng giá |
+| Lào | 15.68tr (VN Airlines) | 15.68tr (Vietjet) | cùng giá |
+
+→ **Tây Âu hè vs thu-đông chênh nhất (17tr)** — hợp lý vì vé hè Châu Âu đắt hơn.  
+→ Tuyến dùng Turkish Airlines thường là thu-đông (khi VN Airlines không bay trực tiếp mùa đó).
+
 ## Liên kết
-- Nguồn: [[sources/fit-tour-tst-2026]]
+- Nguồn vòng 1 (danh sách): [[sources/fit-tour-tst-2026]]
+- Nguồn vòng 2 (chi tiết): [[sources/tst-tour-details-2026]]
+- Raw đầy đủ: `raw/converted/tst-tour-details-2026.md`
 - So sánh giá tuyến Thái: [[tours/tour-products/bangkok-pattaya-5n4d]] · [[tours/quotes/bangkok-pattaya-5n4d-oct2026-noi-bo]]

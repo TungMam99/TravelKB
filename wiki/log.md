@@ -67,3 +67,16 @@ Viết Spec 3 (`docs/superpowers/specs/2026-06-24-website-design.md`) + `web/app
 chat UI + save-gate bằng nút Duyệt/Không + sidebar (model, KB stats). Cài streamlit 1.58 vào .venv.
 Smoke test: py_compile sạch, app boot headless HTTP 200 + health ok, không lỗi. Tái dùng 100% agent.Session.
 → Cả 3 lớp platform đã có Spec + code.
+
+## [2026-07-01] ingest | Crawl chi tiết từng tour TST Tourist 2026 (~80 tour, 3 khu vực)
+Crawl đầy đủ từng trang tour (giá, ngày khởi hành, hãng bay, lịch trình tóm tắt):
+- Châu Âu: 18 tour (Nga ×5, Tây Âu ×2-4, Thổ Nhĩ Kỳ ×2, Bắc Âu, Anh-Ireland, Pháp di sản, etc.)
+- Châu Mỹ: 3 tour đầy đủ (Canada 118.88tr, Mỹ Bờ Đông 93.88tr, Bờ Tây 75.38tr)
+- Châu Á: 54 URL / ~45 sản phẩm unique (Nhật 11, TQ 14, HQ 5, Thái 2, ĐNA 8, Ấn Độ 3, HK 2, Maldives 1)
+Tạo: raw/converted/tst-tour-details-2026.md, wiki/sources/tst-tour-details-2026.md
+Cập nhật: synthesis/tst-tour-catalog-2026 (thêm hãng bay, ngày KH, đính chính "3 Thái Lan→2", insight pattern mùa vụ).
+Key findings:
+- Vietnam Airlines chiếm đa số; Turkish Airlines dùng cho Châu Âu thu-đông
+- Tây Âu hè vs thu-đông chênh 17tr (105.98 vs 88.98tr) cùng route
+- VIP Busan-Seoul Signiel 200tr/pax — segment luxury riêng biệt
+- Maldives chỉ 2 ngày/năm (10/09, 24/09)
