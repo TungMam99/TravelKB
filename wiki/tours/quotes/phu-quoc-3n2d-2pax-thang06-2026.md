@@ -1,5 +1,5 @@
 # BÁO GIÁ TOUR PHÚ QUỐC 3 NGÀY 2 ĐÊM
-**Công ty Lữ hành Hồng Ngọc Hà**
+**Công ty TNHH Du lịch TST Tourist**
 
 ---
 
@@ -46,5 +46,5 @@
 
 ## 📞 Liên hệ
 
-**Công ty Lữ hành Hồng Ngọc Hà**
+**Công ty TNHH Du lịch TST Tourist**
 *Báo giá lập ngày: 2026 · Hiệu lực: 7 ngày kể từ ngày báo giá*

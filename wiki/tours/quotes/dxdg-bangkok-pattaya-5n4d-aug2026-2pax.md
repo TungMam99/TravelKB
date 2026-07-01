@@ -13,7 +13,7 @@
 | Số khách | 2 người lớn (2 pax) |
 | Hãng bay | Vietjet Air (VJ) |
 | Loại đoàn | FIT (2 pax) |
-| Người lập | Sales — Hồng Ngọc Hà |
+| Người lập | Phòng Kinh doanh — TST Tourist |
 | Ngày lập | 2026-08 |
 
 ---

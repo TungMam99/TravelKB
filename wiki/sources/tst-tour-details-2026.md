@@ -41,4 +41,4 @@ Crawl đầu (fit-tour-tst-2026.md) ghi "3 tour Thái Lan" — **sai**. Chỉ c�
 ## Liên kết
 - Raw file: `raw/converted/tst-tour-details-2026.md`
 - Synthesis cũ: [[synthesis/tst-tour-catalog-2026]]
-- Tour sản phẩm HNH: [[tours/tour-products/bangkok-pattaya-5n4d]]
+- Tour sản phẩm tham chiếu: [[tours/tour-products/bangkok-pattaya-5n4d]]

@@ -68,6 +68,24 @@ chat UI + save-gate bằng nút Duyệt/Không + sidebar (model, KB stats). Cài
 Smoke test: py_compile sạch, app boot headless HTTP 200 + health ok, không lỗi. Tái dùng 100% agent.Session.
 → Cả 3 lớp platform đã có Spec + code.
 
+## [2026-07-01] maintain | Xóa toàn bộ dữ liệu nguồn Hồng Ngọc Hà
+Dọn dẹp 2 nguồn HNH không còn phù hợp với phạm vi KB TST Tourist:
+- **contract-tet-hong-ngoc-ha-2022**: HĐ khách B2B nội bộ HNH (không phải supplier data); đã flagged là gap model ngay lúc ingest.
+- **galaxy-3-bang-gia-phong-2023**: bảng giá KS 3* Vũng Tàu — nhà cung cấp của HNH, không liên quan TST.
+Đã xóa 8 file: 2 wiki/sources, 1 wiki/suppliers/hotels, 1 wiki/destinations (vung-tau),
+2 raw/converted, 2 raw/assets (doc/docx gốc).
+Cập nhật index.md: source_count 9→7, page_count 28→24.
+KB còn lại: Mường Thanh Cần Thơ vẫn giữ (có HĐ nguyên tắc thật, phù hợp tệp KH mở rộng TST).
+
+## [2026-07-01] query | Đề xuất + lập đề nghị duyệt giá Bali 5N4Đ (margin 5%)
+Thiết kế tour Bali 5N4Đ theo cấu trúc tương tự Bangkok-Pattaya (city+đảo+văn hoá). Tạo 3 trang mới:
+`destinations/bali` (POI đầy đủ: Nusa Penida, Ubud, Uluwatu, Kecak show, Tanah Lot, GWK, Jimbaran),
+`tours/tour-products/bali-5n4d` (lịch trình 5 ngày + điều kiện + gap cần HĐ DMC),
+`tours/quotes/bali-5n4d-sep2026-2pax` (đề nghị duyệt giá nội bộ: 2 pax FIT, Sep 2026, **13.290.000 VND/pax**).
+Giá vốn: land 180 USD (ước tính) + VJ khứ hồi 6.700.000/pax + bảo hiểm = **11.690.000 VND/pax**.
+Margin 5% = mức thấp/cạnh tranh (so với markup-policy 11,76%); phù hợp deal pilot hoặc khách VIP.
+⚠️ Chưa có DMC Bali → land là ước tính; tour product giữ `status: draft` cho đến khi có HĐ.
+
 ## [2026-07-01] ingest | Crawl chi tiết từng tour TST Tourist 2026 (~80 tour, 3 khu vực)
 Crawl đầy đủ từng trang tour (giá, ngày khởi hành, hãng bay, lịch trình tóm tắt):
 - Châu Âu: 18 tour (Nga ×5, Tây Âu ×2-4, Thổ Nhĩ Kỳ ×2, Bắc Âu, Anh-Ireland, Pháp di sản, etc.)

@@ -5,7 +5,7 @@ destinations: ["[[destinations/bangkok]]"]
 duration_days: 5
 nights: 4
 default_suppliers: ["[[suppliers/airlines/vietjet]]"]
-includes: ["Vé máy bay khứ hồi SGN-BKK (7kg xách tay + 20kg ký gửi)", "KS 3* (2 khách/phòng) + sáng", "HDV Hồng Ngọc Hà suốt tuyến", "Xe + HDV địa phương", "Các bữa ăn theo CT", "Vé tham quan", "Bảo hiểm"]
+includes: ["Vé máy bay khứ hồi SGN-BKK (7kg xách tay + 20kg ký gửi)", "KS 3* (2 khách/phòng) + sáng", "HDV suốt tuyến", "Xe + HDV địa phương", "Các bữa ăn theo CT", "Vé tham quan", "Bảo hiểm"]
 excludes: ["Phụ thu phòng đơn", "Chi phí cá nhân", "Tip HDV + tài xế (80.000đ/khách/ngày)", "Bữa tối ngày 5"]
 child_policy: "<2t: 30% · 2-12t: 80% (90% có giường phụ) · >12t: 100% giá NL"
 updated: 2026-06-23
@@ -14,7 +14,7 @@ sources: ["[[sources/bangkok-pattaya-5-ngay]]", "[[sources/bangkok-pattaya-5n4d-
 
 # Tour Product — Bangkok – Pattaya 5N4Đ
 
-> Tuyến city + biển Thái Lan: Bangkok – Pattaya – Muang Boran – đảo San Hô. HDV Hồng Ngọc Hà suốt tuyến.
+> Tuyến city + biển Thái Lan: Bangkok – Pattaya – Muang Boran – đảo San Hô. HDV suốt tuyến.
 
 ## Điểm nhấn
 - Buffet tòa nhà **Baiyoke Sky 86 tầng**, **Tuk Tuk tour** Krung Thep, **đảo San Hô (Coral Island)**,
@@ -29,7 +29,7 @@ sources: ["[[sources/bangkok-pattaya-5-ngay]]", "[[sources/bangkok-pattaya-5n4d-
 
 ## Biến thể lịch trình
 
-### Biến thể 1 — Hồng Ngọc Hà (2022)
+### Biến thể 1 — Tham chiếu 2022
 Coral Island, Dolphin Show, Muang Boran, Đền 4 Mặt, Tuk Tuk, du thuyền ngày 5.
 
 ### Biến thể 2 — TST Tourist (2026, tham chiếu)
@@ -39,10 +39,10 @@ Coral Island, Dolphin Show, Muang Boran, Đền 4 Mặt, Tuk Tuk, du thuyền ng
 - **Ngày 4:** Bangkok — Thuyền Chao Phraya, Wat Yannawa, Baiyoke Sky buffet, Erawan Shrine, Big C/Central World
 - **Ngày 5:** BKK → SGN — Trung tâm nghiên cứu rắn, về
 
-POI khác nhau so với HNH: không có Coral Island / Dolphin Show / Muang Boran. Thêm Jomtien Beach, Alcazar Show, Marine Park, Erawan Shrine.
+POI khác nhau so với biến thể 2022: không có Coral Island / Dolphin Show / Muang Boran. Thêm Jomtien Beach, Alcazar Show, Marine Park, Erawan Shrine.
 
 ## Giá tham chiếu
-### 2022 (Hồng Ngọc Hà)
+### 2022 (tham chiếu)
 - NL trọn gói **7.990.000 VND** (KH 10/08/2022) / 8.250.000 (31/08/2022); phụ thu phòng đơn 2.490.000.
 - Chặng bay: VZ971 SGN-BKK 13:50 · VJ806 BKK-SGN 19:55.
 

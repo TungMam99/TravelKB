@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Đề nghị duyệt giá — Bali 5N4Đ | TST-BALI-2026-001</title>
+  <style>
+    /* ── Reset & base ─────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --orange:       #F47920;
+      --orange-dark:  #D45F08;
+      --orange-mid:   #FCEEE3;
+      --orange-light: #FFF8F4;
+      --charcoal:     #3D3D3D;
+      --charcoal-mid: #666666;
+      --border:       #F0C4A0;
+      --border-mid:   #E8A870;
+    }
+
+    body {
+      font-family: "Times New Roman", Times, serif;
+      font-size: 12pt;
+      line-height: 1.6;
+      color: var(--charcoal);
+      background: #f0ece8;
+    }
+
+    /* ── Page wrapper (A4) ────────────────────────────────────────── */
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 24px auto;
+      padding: 18mm 20mm 22mm;
+      background: #fff;
+      box-shadow: 0 2px 20px rgba(244,121,32,.18);
+    }
+
+    /* ── Header ───────────────────────────────────────────────────── */
+    .header {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 16px;
+      border-bottom: 3px solid var(--orange);
+      padding-bottom: 12px;
+      margin-bottom: 14px;
+    }
+    .logo-block img {
+      height: 52px;
+      display: block;
+    }
+    .company-info {
+      font-size: 9pt;
+      color: var(--charcoal-mid);
+      line-height: 1.55;
+    }
+    .company-name {
+      font-size: 11pt;
+      font-weight: 700;
+      color: var(--charcoal);
+      margin-bottom: 2px;
+    }
+    .company-tagline {
+      font-size: 8.5pt;
+      color: var(--orange);
+      font-style: italic;
+      margin-bottom: 3px;
+    }
+    .doc-ref {
+      text-align: right;
+      font-size: 9pt;
+      color: var(--charcoal-mid);
+      line-height: 1.6;
+    }
+    .doc-ref .ref-num {
+      font-size: 11.5pt;
+      font-weight: 700;
+      color: var(--orange-dark);
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    /* ── Document title ───────────────────────────────────────────── */
+    .doc-title-block {
+      text-align: center;
+      margin: 12px 0 14px;
+    }
+    .confidential-badge {
+      display: inline-block;
+      background: var(--charcoal);
+      color: #fff;
+      font-size: 7.5pt;
+      font-weight: 700;
+      letter-spacing: .10em;
+      padding: 2px 12px;
+      border-radius: 2px;
+      margin-bottom: 7px;
+      text-transform: uppercase;
+    }
+    .doc-title {
+      font-size: 16pt;
+      font-weight: 700;
+      color: var(--orange);
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      line-height: 1.2;
+    }
+    .doc-subtitle {
+      font-size: 11.5pt;
+      color: var(--charcoal);
+      margin-top: 5px;
+    }
+    .orange-rule {
+      height: 2px;
+      background: linear-gradient(to right, var(--orange), #fdd5b4, transparent);
+      margin: 10px 0;
+    }
+
+    /* ── Price highlight box ──────────────────────────────────────── */
+    .price-highlight {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px;
+      margin: 14px 0 18px;
+    }
+    .ph-item {
+      border: 1.5px solid var(--border-mid);
+      border-radius: 5px;
+      padding: 9px 12px;
+      text-align: center;
+      background: var(--orange-light);
+    }
+    .ph-item.accent {
+      background: var(--orange);
+      color: #fff;
+      border-color: var(--orange);
+    }
+    .ph-label { font-size: 7.5pt; text-transform: uppercase; letter-spacing: .07em; opacity: .75; }
+    .ph-value { font-size: 15pt; font-weight: 700; line-height: 1.2; margin: 3px 0; }
+    .ph-sub   { font-size: 8pt; opacity: .8; }
+
+    /* ── Section titles ───────────────────────────────────────────── */
+    .section { margin-bottom: 18px; }
+    .section-title {
+      font-size: 10.5pt;
+      font-weight: 700;
+      color: #fff;
+      background: var(--orange);
+      padding: 4px 10px;
+      margin-bottom: 8px;
+      letter-spacing: .03em;
+    }
+    .sub-title {
+      font-size: 10pt;
+      font-weight: 700;
+      color: var(--orange-dark);
+      margin: 10px 0 6px;
+      border-left: 3px solid var(--orange);
+      padding-left: 7px;
+    }
+
+    /* ── Tables ───────────────────────────────────────────────────── */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 10.5pt;
+      margin-bottom: 6px;
+    }
+    th {
+      background: var(--orange-mid);
+      color: var(--charcoal);
+      font-weight: 700;
+      padding: 5px 8px;
+      border: 1px solid var(--border);
+      text-align: center;
+      font-size: 9.5pt;
+    }
+    td {
+      padding: 5px 8px;
+      border: 1px solid var(--border);
+      vertical-align: middle;
+    }
+    tr:nth-child(even) td { background: var(--orange-light); }
+    .total-row td {
+      background: var(--orange) !important;
+      color: #fff;
+      font-weight: 700;
+      border-color: var(--orange-dark);
+    }
+    .highlight-row td {
+      background: #FFF3CD !important;
+      font-weight: 700;
+    }
+    .right  { text-align: right; }
+    .center { text-align: center; }
+    .bold   { font-weight: 700; }
+    .money  { text-align: right; font-weight: 700; font-family: "Courier New", monospace; font-size: 10pt; }
+
+    /* ── Notes / callout ──────────────────────────────────────────── */
+    .note {
+      font-size: 9pt;
+      border-left: 3px solid var(--orange);
+      background: var(--orange-light);
+      padding: 6px 10px;
+      margin: 6px 0;
+      color: #7a3600;
+    }
+    .note.info {
+      border-color: var(--charcoal-mid);
+      background: #f7f7f7;
+      color: var(--charcoal);
+    }
+    .note.danger {
+      border-color: #c0392b;
+      background: #fdf0ef;
+      color: #7b1212;
+    }
+    .note.success {
+      border-color: #27ae60;
+      background: #eafaf1;
+      color: #145a32;
+    }
+
+    /* ── Risk badges ──────────────────────────────────────────────── */
+    .badge {
+      display: inline-block;
+      padding: 1px 7px;
+      border-radius: 3px;
+      font-size: 8.5pt;
+      font-weight: 700;
+    }
+    .badge-red    { background: #fde8e8; color: #c0392b; border: 1px solid #e99; }
+    .badge-yellow { background: #fef9e7; color: #9a7d0a; border: 1px solid #e6c96a; }
+    .badge-green  { background: #eafaf1; color: #1e8449; border: 1px solid #82d89b; }
+    .badge-orange { background: #fff0e6; color: var(--orange-dark); border: 1px solid var(--border-mid); }
+
+    /* ── Recommendation list ──────────────────────────────────────── */
+    ul.reco {
+      margin: 6px 0 6px 20px;
+      font-size: 10.5pt;
+    }
+    ul.reco li { margin-bottom: 3px; }
+
+    /* ── Approval block ───────────────────────────────────────────── */
+    .approval-banner {
+      border: 2px solid var(--orange);
+      border-radius: 5px;
+      padding: 10px 14px;
+      margin: 10px 0;
+      background: var(--orange-light);
+    }
+    .approval-banner .ab-title {
+      font-size: 10.5pt;
+      font-weight: 700;
+      color: var(--orange-dark);
+      margin-bottom: 6px;
+    }
+    .approval-banner table td {
+      border: none;
+      background: transparent !important;
+      padding: 3px 6px;
+    }
+
+    /* ── Signature grid ───────────────────────────────────────────── */
+    .sig-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 14px;
+      margin-top: 20px;
+    }
+    .sig-box {
+      border: 1px solid var(--border-mid);
+      border-radius: 5px;
+      padding: 0 12px 10px;
+      text-align: center;
+      overflow: hidden;
+    }
+    .sig-box .sig-role {
+      font-size: 8.5pt;
+      font-weight: 700;
+      color: #fff;
+      background: var(--charcoal);
+      text-transform: uppercase;
+      letter-spacing: .07em;
+      padding: 5px 4px;
+      margin: 0 -12px 10px;
+    }
+    .sig-box.primary .sig-role { background: var(--orange); }
+    .sig-area { height: 58px; }
+    .sig-box .sig-name { font-size: 9pt; color: var(--charcoal-mid); margin-top: 4px; }
+    .sig-box .sig-date { font-size: 8.5pt; color: #aaa; margin-top: 2px; }
+
+    /* ── Divider ──────────────────────────────────────────────────── */
+    hr { border: none; border-top: 1px solid var(--border); margin: 14px 0; }
+
+    /* ── Footer ───────────────────────────────────────────────────── */
+    .footer {
+      margin-top: 18px;
+      padding-top: 8px;
+      border-top: 2px solid var(--orange);
+      font-size: 8pt;
+      color: #aaa;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footer .ft-brand { color: var(--orange); font-weight: 700; }
+
+    /* ── Print ────────────────────────────────────────────────────── */
+    @media print {
+      body { background: #fff; }
+      .page {
+        margin: 0; padding: 14mm 18mm 20mm;
+        box-shadow: none;
+        width: 100%; min-height: auto;
+      }
+      .no-print { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Print button (screen only) -->
+<div class="no-print" style="text-align:center;padding:12px 0 4px;font-family:sans-serif;font-size:11pt;">
+  <button onclick="window.print()"
+    style="padding:8px 28px;background:#F47920;color:#fff;border:none;border-radius:5px;cursor:pointer;font-size:11pt;font-weight:600;">
+    🖨 In / Lưu PDF
+  </button>
+</div>
+
+<div class="page">
+
+  <!-- ── HEADER ───────────────────────────────────────────────────── -->
+  <div class="header">
+    <div class="logo-block">
+      <img src="../../../Pattern/Company/TSTlogo.webp" alt="TST Tourist Logo" />
+    </div>
+    <div class="company-info">
+      <div class="company-name">CÔNG TY TNHH DU LỊCH TST TOURIST</div>
+      <div class="company-tagline">30 năm đồng hành khám phá tinh hoa văn hóa</div>
+      <div>Website: <strong>www.tsttourist.com</strong> &nbsp;|&nbsp; Email: sales@tsttourist.com</div>
+      <div>Thành lập: 31/01/1995 &nbsp;|&nbsp; World Travel Awards · TTG Travel Awards · Top 10 DL Uy tín 2025</div>
+    </div>
+    <div class="doc-ref">
+      <span class="ref-num">TST-BALI-2026-001</span>
+      <div>Ngày lập: <strong>01/07/2026</strong></div>
+      <div>Phiên bản: 1.0</div>
+      <div style="margin-top:5px;">
+        <span class="badge badge-orange">MẬT — NỘI BỘ</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── TITLE ────────────────────────────────────────────────────── -->
+  <div class="doc-title-block">
+    <div class="confidential-badge">Tài liệu nội bộ — Không phát hành ra bên ngoài</div>
+    <div class="doc-title">Đề nghị duyệt giá bán</div>
+    <div class="doc-subtitle">
+      Tour <strong>Bali – Đảo Ngọc Indonesia 5 Ngày 4 Đêm</strong>
+      &nbsp;|&nbsp; 2 Người lớn &nbsp;|&nbsp; Khởi hành 12/09/2026
+    </div>
+  </div>
+  <div class="orange-rule"></div>
+
+  <!-- ── PRICE HIGHLIGHTS ──────────────────────────────────────────── -->
+  <div class="price-highlight">
+    <div class="ph-item">
+      <div class="ph-label">Giá vốn / pax</div>
+      <div class="ph-value" style="color:var(--orange-dark);">11.690.000 ₫</div>
+      <div class="ph-sub">Tổng đoàn: 23.380.000 ₫</div>
+    </div>
+    <div class="ph-item accent">
+      <div class="ph-label">Giá bán đề xuất / pax</div>
+      <div class="ph-value">13.290.000 ₫</div>
+      <div class="ph-sub">Tổng đoàn: 26.580.000 ₫ (gồm VAT 8%)</div>
+    </div>
+    <div class="ph-item">
+      <div class="ph-label">Gross margin</div>
+      <div class="ph-value" style="color:#c0392b;">5,00%</div>
+      <div class="ph-sub">Lãi gộp: 1.230.526 ₫</div>
+    </div>
+  </div>
+
+  <!-- ── I. THÔNG TIN CHUNG ─────────────────────────────────────── -->
+  <div class="section">
+    <div class="section-title">I. THÔNG TIN CHUNG</div>
+    <table>
+      <colgroup><col style="width:36%"/><col/></colgroup>
+      <tr><td class="bold">Tên tour</td><td>Bali – Đảo Ngọc Indonesia 5 Ngày 4 Đêm</td></tr>
+      <tr><td class="bold">Ngày khởi hành</td><td>12/09/2026 (Thứ Bảy)</td></tr>
+      <tr><td class="bold">Ngày về</td><td>16/09/2026 (Thứ Tư)</td></tr>
+      <tr><td class="bold">Điểm đến</td><td>Bali, Indonesia &nbsp;(Kuta · Nusa Penida · Ubud · Uluwatu)</td></tr>
+      <tr><td class="bold">Số khách</td><td>2 người lớn (FIT)</td></tr>
+      <tr><td class="bold">Hãng bay</td><td>Vietjet Air (VJ) — SGN ↔ DPS, bay thẳng (~3h30)</td></tr>
+      <tr><td class="bold">Hạng khách sạn</td><td>4★ khu vực Kuta / Legian (4 đêm)</td></tr>
+      <tr><td class="bold">Tỷ giá tham chiếu</td><td>26.500 VND/USD</td></tr>
+      <tr><td class="bold">Phòng kinh doanh</td><td>TST Tourist — Bộ phận Tour Châu Á</td></tr>
+      <tr><td class="bold">Ngày lập</td><td>01/07/2026</td></tr>
+    </table>
+  </div>
+
+  <!-- ── II. CHIẾT TÍNH GIÁ VỐN ─────────────────────────────────── -->
+  <div class="section">
+    <div class="section-title">II. CHIẾT TÍNH GIÁ VỐN</div>
+
+    <div class="sub-title">A. Chi tiết từng hạng mục</div>
+    <table>
+      <thead>
+        <tr>
+          <th style="width:5%">#</th>
+          <th style="width:44%">Hạng mục</th>
+          <th style="width:8%">Loại</th>
+          <th style="width:17%">Đơn giá / pax (VND)</th>
+          <th style="width:6%">SL</th>
+          <th style="width:20%">Thành tiền (VND)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="center">1</td>
+          <td>
+            Land package Bali 5N4Đ<br/>
+            <span style="font-size:9pt;color:#888;">(180 USD × 26.500 đ/USD) &nbsp;</span>
+            <span class="badge badge-yellow">Ước tính ⚠</span>
+          </td>
+          <td class="center">Land</td>
+          <td class="money">4.770.000</td>
+          <td class="center">2</td>
+          <td class="money">9.540.000</td>
+        </tr>
+        <tr>
+          <td class="center">2</td>
+          <td>
+            Vé bay SGN → DPS, 12/09<br/>
+            <span style="font-size:9pt;color:#888;">VJ 08:00 – 12:00 (thẳng)</span>
+          </td>
+          <td class="center">Air</td>
+          <td class="money">3.500.000</td>
+          <td class="center">2</td>
+          <td class="money">7.000.000</td>
+        </tr>
+        <tr>
+          <td class="center">3</td>
+          <td>
+            Vé bay DPS → SGN, 16/09<br/>
+            <span style="font-size:9pt;color:#888;">VJ 13:00 – 15:00 (thẳng)</span>
+          </td>
+          <td class="center">Air</td>
+          <td class="money">3.200.000</td>
+          <td class="center">2</td>
+          <td class="money">6.400.000</td>
+        </tr>
+        <tr>
+          <td class="center">4</td>
+          <td>Bảo hiểm du lịch quốc tế</td>
+          <td class="center">Ins</td>
+          <td class="money">220.000</td>
+          <td class="center">2</td>
+          <td class="money">440.000</td>
+        </tr>
+        <tr class="total-row">
+          <td colspan="5" class="bold">TỔNG GIÁ VỐN</td>
+          <td class="money">23.380.000</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="note">
+      ⚠ <strong>Land package</strong> là giá <strong>ước tính tham chiếu</strong> — chưa có hợp đồng DMC Bali.
+      Cần xác nhận với nhà cung cấp trước khi ký hợp đồng với khách.
+    </div>
+    <div class="note info">
+      📌 Giá vé máy bay là <strong>tham chiếu live</strong> tại thời điểm tra cứu — cần chốt booking để khoá giá.<br/>
+      📌 Tỷ giá land: <strong>26.500 VND/USD</strong> (tham chiếu nội bộ tháng 10/2026).
+    </div>
+
+    <div class="sub-title">B. Cơ cấu giá vốn</div>
+    <table>
+      <thead>
+        <tr><th>Khoản mục</th><th>Giá trị (VND)</th><th>Tỷ trọng</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Land package (2 pax)</td><td class="money">9.540.000</td><td class="center">40,8%</td></tr>
+        <tr><td>Vé máy bay khứ hồi (2 pax)</td><td class="money">13.400.000</td><td class="center">57,3%</td></tr>
+        <tr><td>Bảo hiểm (2 pax)</td><td class="money">440.000</td><td class="center">1,9%</td></tr>
+        <tr class="total-row"><td class="bold">Tổng giá vốn</td><td class="money">23.380.000</td><td class="center bold">100%</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ── III. PHÂN TÍCH LÃI LỖ ──────────────────────────────────── -->
+  <div class="section">
+    <div class="section-title">III. PHÂN TÍCH LÃI LỖ (P&amp;L)</div>
+
+    <div class="note info" style="margin-bottom:8px;">
+      <strong>Markup mục tiêu:</strong> 5% gross margin trên doanh thu net VAT đầu ra (8%)
+    </div>
+
+    <table>
+      <thead>
+        <tr><th>Chỉ số</th><th>Tính toán</th><th>Giá trị (VND)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Giá vốn (tổng đoàn)</td><td class="center">—</td><td class="money">23.380.000</td></tr>
+        <tr><td>Giá vốn / pax</td><td class="center">23.380.000 ÷ 2</td><td class="money">11.690.000</td></tr>
+        <tr><td>Doanh thu mục tiêu (net VAT)</td><td class="center">23.380.000 ÷ (1 − 5%)</td><td class="money">24.610.526</td></tr>
+        <tr><td>VAT đầu ra (8%)</td><td class="center">24.610.526 × 8%</td><td class="money">1.968.842</td></tr>
+        <tr class="highlight-row">
+          <td class="bold">Giá bán đề xuất / đoàn (gồm VAT)</td>
+          <td class="center">24.610.526 × 1,08 → làm tròn</td>
+          <td class="money bold">26.580.000</td>
+        </tr>
+        <tr class="highlight-row">
+          <td class="bold">Giá bán / pax</td>
+          <td class="center">26.580.000 ÷ 2</td>
+          <td class="money bold">13.290.000</td>
+        </tr>
+        <tr><td>Lợi nhuận gộp</td><td class="center">24.610.526 − 23.380.000</td><td class="money">1.230.526</td></tr>
+        <tr class="total-row"><td class="bold">Gross margin</td><td class="center bold">1.230.526 ÷ 24.610.526</td><td class="center bold">5,00%</td></tr>
+        <tr><td>Lợi nhuận / pax</td><td class="center">1.230.526 ÷ 2</td><td class="money">~615.263</td></tr>
+      </tbody>
+    </table>
+
+    <div class="sub-title">Đánh giá biên lợi nhuận &amp; rủi ro</div>
+    <table>
+      <thead>
+        <tr><th>Chỉ tiêu</th><th>Ngưỡng / Giá trị</th><th>Trạng thái</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Gross margin tổng</td>
+          <td class="center bold">5,00%</td>
+          <td class="center"><span class="badge badge-red">🔴 Rất thấp — dưới chuẩn 11,76%</span></td>
+        </tr>
+        <tr>
+          <td>Margin land-only</td>
+          <td class="center">19,22%</td>
+          <td class="center"><span class="badge badge-green">🟢 Ổn (đúng chuẩn policy)</span></td>
+        </tr>
+        <tr>
+          <td>Rủi ro land chưa HĐ</td>
+          <td class="center">Ước tính ± 15% (~1.400.000 ₫)</td>
+          <td class="center"><span class="badge badge-yellow">⚠ Xác nhận trước khi ký</span></td>
+        </tr>
+        <tr>
+          <td>Rủi ro tỷ giá USD/VND</td>
+          <td class="center">26.500 — chưa chốt</td>
+          <td class="center"><span class="badge badge-yellow">⚠ Chốt khi ký HĐ khách</span></td>
+        </tr>
+        <tr>
+          <td>Rủi ro vé máy bay</td>
+          <td class="center">Giá tham chiếu, chưa hold</td>
+          <td class="center"><span class="badge badge-yellow">⚠ Book sớm — tháng 9 shoulder</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ── IV. SO SÁNH TƯƠNG ĐỒNG ──────────────────────────────────── -->
+  <div class="section">
+    <div class="section-title">IV. SO SÁNH VỚI TOUR TƯƠNG ĐỒNG</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Chỉ số</th>
+          <th>Bangkok-Pattaya 5N4Đ<br/><small>(Aug 2026, 2 pax — đã ký HĐ)</small></th>
+          <th style="background:#FFF0E6;color:var(--orange-dark);">Bali 5N4Đ<br/><small>(Sep 2026, 2 pax — TÀI LIỆU NÀY)</small></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Giá vốn / đoàn</td><td class="money">26.220.764</td><td class="money bold">23.380.000</td></tr>
+        <tr><td>Giá vốn / pax</td><td class="money">13.110.382</td><td class="money bold">11.690.000</td></tr>
+        <tr><td>Giá bán / pax (gồm VAT)</td><td class="money">15.112.551</td><td class="money bold">13.290.000</td></tr>
+        <tr><td>Gross margin</td><td class="center">6,31%</td><td class="center bold" style="color:var(--orange-dark);">5,00%</td></tr>
+        <tr><td>Land / pax</td><td class="center">140 USD = 3.710.000 ₫</td><td class="center">180 USD* = 4.770.000 ₫</td></tr>
+        <tr><td>Vé bay khứ hồi / pax</td><td class="center">9.400.382 ₫ (peak Aug)</td><td class="center bold">6.700.000 ₫ (shoulder Sep)</td></tr>
+        <tr><td>Trạng thái hợp đồng</td>
+            <td class="center"><span class="badge badge-green">✅ HĐ đã ký</span></td>
+            <td class="center"><span class="badge badge-yellow">⚠ Land ước tính</span></td>
+        </tr>
+      </tbody>
+    </table>
+    <div style="font-size:9pt;color:#888;margin-top:4px;">
+      (*) Land Bali cao hơn do bao gồm tàu cao tốc excursion Nusa Penida (~+30–40 USD/pax so với Bangkok).
+      Vé máy bay tháng 9 rẻ hơn tháng 8 khoảng <strong>2.700.000 ₫/pax</strong> → giá bán tổng thấp hơn.
+    </div>
+  </div>
+
+  <!-- ── V. KHUYẾN NGHỊ ──────────────────────────────────────────── -->
+  <div class="section">
+    <div class="section-title">V. KHUYẾN NGHỊ</div>
+
+    <div class="note danger">
+      <strong>Margin 5% là mức rất thấp</strong>, dưới ngưỡng chuẩn công ty (11,76%).
+      Chỉ áp dụng trong các trường hợp đặc biệt sau:
+    </div>
+    <ul class="reco" style="margin-top:8px;">
+      <li>Khách VIP / khách thân thiết — ưu tiên duy trì quan hệ lâu dài</li>
+      <li>Cạnh tranh trực tiếp — khách đang so sánh với TST Tourist FIT Bali 4N3Đ (15.680.000 ₫/pax)</li>
+      <li>Deal pilot để mở sản phẩm Bali mới cho năm 2026–2027</li>
+    </ul>
+
+    <div class="sub-title">Các phương án tăng margin</div>
+    <table>
+      <thead>
+        <tr><th>Phương án</th><th>Điều chỉnh</th><th>Margin ước tính</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Tăng giá bán</td>
+          <td>14.000.000 – 14.500.000 ₫/pax</td>
+          <td class="center"><span class="badge badge-yellow">~8–10%</span></td>
+        </tr>
+        <tr>
+          <td>Thêm dịch vụ optional</td>
+          <td>Bali Swing riêng (+500k) + massage Ubud (+200k/pax)</td>
+          <td class="center"><span class="badge badge-yellow">+2–3%</span></td>
+        </tr>
+        <tr>
+          <td>Ghép mini-group</td>
+          <td>4–6 pax → land cost/pax giảm 10–15%</td>
+          <td class="center"><span class="badge badge-green">~8–9%</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <hr/>
+
+  <!-- ── VI. PHÊ DUYỆT ──────────────────────────────────────────── -->
+  <div class="section">
+    <div class="section-title">VI. ĐỀ XUẤT PHÊ DUYỆT</div>
+
+    <div class="approval-banner">
+      <div class="ab-title">📋 Thông tin trình duyệt</div>
+      <table>
+        <tr>
+          <td style="width:42%;font-weight:700;">Giá bán đề xuất (tổng đoàn — gồm VAT)</td>
+          <td style="font-size:14pt;font-weight:700;color:var(--orange);">26.580.000 VND</td>
+        </tr>
+        <tr>
+          <td style="font-weight:700;">Giá bán / pax (gồm VAT)</td>
+          <td style="font-size:14pt;font-weight:700;color:var(--orange);">13.290.000 VND</td>
+        </tr>
+        <tr>
+          <td style="font-weight:700;">Gross margin</td>
+          <td><strong style="color:#c0392b;">5,00%</strong> — cần lý do đặc biệt (xem Mục V)</td>
+        </tr>
+        <tr>
+          <td style="font-weight:700;color:#c0392b;">⚠ Điều kiện tiên quyết</td>
+          <td style="color:#c0392b;">Xác nhận giá land với DMC Bali trước khi ký hợp đồng khách</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Chữ ký -->
+    <div class="sig-grid">
+      <div class="sig-box">
+        <div class="sig-role">Người lập phiếu</div>
+        <div class="sig-area"></div>
+        <div class="sig-name">Phòng Kinh doanh — Tour Châu Á</div>
+        <div class="sig-date">Ngày: &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;/ 2026</div>
+      </div>
+      <div class="sig-box">
+        <div class="sig-role">Trưởng phòng kinh doanh</div>
+        <div class="sig-area"></div>
+        <div class="sig-name">&nbsp;</div>
+        <div class="sig-date">Ngày: &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;/ 2026</div>
+      </div>
+      <div class="sig-box primary">
+        <div class="sig-role">Giám đốc / Người phê duyệt</div>
+        <div class="sig-area"></div>
+        <div class="sig-name">&nbsp;</div>
+        <div class="sig-date">Ngày: &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;/ 2026</div>
+      </div>
+    </div>
+
+    <div class="note info" style="margin-top:14px;font-size:9pt;">
+      Sau khi phê duyệt, tài liệu này là cơ sở để: (1) xuất báo giá khách hàng, (2) đặt vé &amp; dịch vụ land,
+      (3) lập hợp đồng dịch vụ lữ hành theo giá được duyệt. Mọi thay đổi giá sau phê duyệt cần phiếu điều chỉnh riêng.
+    </div>
+  </div>
+
+  <!-- ── FOOTER ─────────────────────────────────────────────────── -->
+  <div class="footer">
+    <div><span class="ft-brand">TST Tourist</span> — Tài liệu nội bộ &nbsp;|&nbsp; Không phát hành ra bên ngoài &nbsp;|&nbsp; MẬT</div>
+    <div>Ref: TST-BALI-2026-001 &nbsp;|&nbsp; v1.0 &nbsp;|&nbsp; 01/07/2026</div>
+    <div>Trang 1/1</div>
+  </div>
+
+</div><!-- /.page -->
+</body>
+</html>

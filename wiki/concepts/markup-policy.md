@@ -15,7 +15,7 @@ sources: ["[[sources/chiet-tinh-gia-noi-bo]]"]
 
 # Markup Policy — Công thức giá bán
 
-> Cách cộng lãi từ giá vốn ra giá bán. Trích từ bảng chiết tính thật của Hồng Ngọc Hà.
+> Cách cộng lãi từ giá vốn ra giá bán. Trích từ bảng chiết tính thực tế (nguồn nội bộ 2022).
 
 ## Tỷ lệ lãi tham chiếu (từ tour Phú Quốc 8/2022)
 | Chỉ số | Giá trị | Ghi chú |

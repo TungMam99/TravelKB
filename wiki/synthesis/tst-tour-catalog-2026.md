@@ -128,14 +128,15 @@ Chênh lệch 55% nhiều khả năng do: (a) vé tháng 10 đắt hơn off-peak
 - **Nhật Bản** là segment premium nhất Châu Á (45-50tr, 5 biến thể).
 - **Châu Âu + Mỹ** là thị trường cao cấp (80-189tr) — TST có đầy đủ dải.
 
-### 3. Điểm đến chưa có trong wiki HNH
-Các điểm đến TST đang bán mà HNH chưa có wiki page:
-- Nhật Bản, Hàn Quốc, Trung Quốc, Ấn Độ, Bali, Lào, Hong Kong, Maldives
+### 3. Điểm đến chưa có trong wiki TST Tourist
+Các điểm đến TST đang bán mà wiki chưa có trang riêng:
+- Nhật Bản, Hàn Quốc, Trung Quốc, Ấn Độ, Lào, Hong Kong, Maldives
 - Toàn bộ Châu Mỹ và Châu Âu
+- **Bali** → đã có draft [[destinations/bali]] + [[tours/tour-products/bali-5n4d]]
 
 ### 4. Khoảng trắng cạnh tranh
-- HNH hiện chỉ có wiki cho: Thái Lan, Phú Quốc, Vũng Tàu, Cần Thơ.
-- TST có nhiều tour Đông Nam Á giá tương đương (Bali 15.68tr, Singapore 14.98-15.38tr) — đây là thị trường HNH có thể cạnh tranh.
+- Wiki hiện có: Thái Lan, Phú Quốc, Bali (draft), Cần Thơ.
+- Cơ hội gần nhất: Bali (15.68tr), Singapore (14.98–15.38tr), Lào — tầm giá phù hợp tệp khách Đông Nam Á.
 
 ---
 
