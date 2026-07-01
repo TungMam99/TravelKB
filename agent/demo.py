@@ -9,6 +9,9 @@ from __future__ import annotations
 import os
 import sys
 
+from dotenv import load_dotenv
+load_dotenv("api.env")
+
 QUERY = ("Khách muốn tour Phú Quốc 4 ngày 3 đêm cho 2 người lớn, mức tầm trung, "
          "khởi hành 2026-09-15. Hãy đề xuất khung tour và ráp một bảng báo giá sơ bộ.")
 

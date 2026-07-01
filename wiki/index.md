@@ -1,8 +1,8 @@
 ---
 type: index
-updated: 2026-06-23
-source_count: 5
-page_count: 17
+updated: 2026-07-01
+source_count: 8
+page_count: 24
 ---
 
 # Index — Travel Knowledge Base (Tour Operator)
@@ -24,22 +24,30 @@ Dòng thời gian: [[log]] · Bức tranh tổng: [[overview]] · Schema: `CLAUD
   - [[suppliers/hotels/muong-thanh-can-tho]] — KS 4-5* Cần Thơ, 1,55–12tr (2023). 🔒 **giá bảo mật**.
 - **Transport:** [[suppliers/transport/long-beach-phu-quoc]] — xe 45 chỗ, 13tr/4N3Đ (2022).
 
+## 🏛 Entities
+- [[entities/alcazar-show]] — show chuyển giới Pattaya, included trong tour Thái.
+
 ## 🧳 Tours
-- **Tour products:** [[tours/tour-products/bangkok-pattaya-5n4d]] — Bangkok-Pattaya 5N4Đ.
-- **Quotes:** [[tours/quotes/phu-quoc-nhat-huy-khang-2022-08]] — đoàn 44 khách, lãi 56,9tr (margin 11,76%).
+- **Tour products:** [[tours/tour-products/bangkok-pattaya-5n4d]] — Bangkok-Pattaya 5N4Đ (2 biến thể: HNH 2022 + TST 2026).
+- **Quotes:**
+  - [[tours/quotes/phu-quoc-nhat-huy-khang-2022-08]] — đoàn 44 khách Phú Quốc, lãi 56,9tr (margin 11,76%).
+  - [[tours/quotes/bangkok-pattaya-5n4d-oct2026-noi-bo]] 🔒 — chiết tính nội bộ BKK-PTY Oct 2026, 15 pax, margin 10,09%.
 
 ## 💡 Concepts
 - [[concepts/markup-policy]] — markup 11,76% (gồm vé) / 19,22% (chưa vé), thuế 8%.
 
 ## 📚 Sources
-- [[sources/bangkok-pattaya-5-ngay]] — brochure tour Thái.
+- [[sources/bangkok-pattaya-5-ngay]] — brochure tour Thái (HNH 2022).
+- [[sources/bangkok-pattaya-5n4d-tst-tourist]] — brochure tour Thái (TST Tourist 2026, lịch trình biến thể).
+- [[sources/dxdg-thailand-5n4d-oct2026]] 🔒 — chiết tính nội bộ BKK-PTY, 15 pax, Oct 2026.
+- [[sources/fit-tour-tst-2026]] — web crawl ~60 FIT tour TST Tourist (Á/Mỹ/Âu), 01/07/2026.
 - [[sources/chiet-tinh-gia-noi-bo]] — chiết tính + quyết toán Phú Quốc (giá vốn thật).
 - [[sources/contract-tet-hong-ngoc-ha-2022]] — ⚠️ hợp đồng khách B2B (không phải supplier; lộ gap model).
 - [[sources/galaxy-3-bang-gia-phong-2023]] — bảng giá phòng Galaxy 3 (2023).
 - [[sources/hd-muong-thanh-can-tho]] — 🔒 HĐ nguyên tắc Mường Thanh Cần Thơ (giá bảo mật).
 
 ## 🔗 Synthesis
-_(chưa có)_
+- [[synthesis/tst-tour-catalog-2026]] — ~60 FIT tour TST Tourist 2026 (Á/Mỹ/Âu), benchmark giá + phân tích cạnh tranh.
 
 ## 🛠 Build artifacts (KB → Agent)
 - `build/suppliers.json` (5, có field `confidential`) · `build/tour-products.json` (1) — sinh bởi `build/extract_kb.py`.

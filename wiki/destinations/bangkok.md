@@ -7,7 +7,7 @@ tags: [destination]
 visited: true
 best_seasons: ["Tháng 11–2 (mát, khô)"]
 updated: 2026-06-23
-sources: ["[[sources/bangkok-pattaya-5-ngay]]"]
+sources: ["[[sources/bangkok-pattaya-5-ngay]]", "[[sources/bangkok-pattaya-5n4d-tst-tourist]]"]
 ---
 
 # Bangkok (+ Pattaya)
@@ -15,8 +15,13 @@ sources: ["[[sources/bangkok-pattaya-5-ngay]]"]
 > Thủ đô Thái Lan, thường ghép Pattaya thành tuyến city + biển 5N4Đ. HDV VN theo đoàn.
 
 ## Điểm nổi bật (từ tour thật)
-- **Baiyoke Sky 86 tầng**, **Muang Boran** (Thái Lan thu nhỏ), du thuyền **Chao Phraya**, **Wat Arun**,
-  **Đền Thần 4 Mặt**, **Icon Siam**, **Tuk Tuk tour**. Pattaya: **đảo San Hô**, **Dolphin Show**, **chợ nổi Bốn Miền**.
+**Bangkok:** Baiyoke Sky 86 tầng (buffet), Muang Boran (Thái Lan thu nhỏ), du thuyền Chao Phraya,
+Wat Arun, Wat Yannawa, Đền Thần 4 Mặt (Erawan Shrine), IconSiam, Tuk Tuk tour, Big C / Central World.
+
+**Pattaya:** Đảo San Hô, Dolphin Show, [[entities/alcazar-show]] (show chuyển giới), Jomtien Beach,
+Khao Chee Chan (Phật vàng), Chợ nổi Bốn Miền, Marine Park, Latex Center, Đá quý (World Gems).
+
+**Trên đường Pattaya → Bangkok:** Trại nuôi mật ong, Trung tâm nghiên cứu rắn độc (Snake Farm).
 
 ## Di chuyển
 - Bay **SGN-BKK** ~85–100' bay thẳng; nhiều hãng (Vietjet/Thai Vietjet VZ, Vietnam Airlines, THAI).

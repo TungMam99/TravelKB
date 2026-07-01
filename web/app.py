@@ -10,6 +10,9 @@ from pathlib import Path
 # cho import `agent` bất kể cwd (streamlit set path theo thư mục script)
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
+from dotenv import load_dotenv
+load_dotenv(Path(__file__).resolve().parent.parent / "api.env")
+
 import streamlit as st  # noqa: E402
 
 from agent import kb  # noqa: E402

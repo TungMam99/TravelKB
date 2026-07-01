@@ -45,6 +45,23 @@ Chạy `agent.demo` với API key thật (Sonnet 4.6): agent dựng khung tour P
 live (VNA/VJ), quote_calc deterministic (giá vốn 25,99tr → bán 32,57tr, margin 16,1%), tách bảng nội bộ/khách,
 tự flag rủi ro (giá 2022 cũ, markup chưa chuẩn, thiếu rate hoạt động). Toàn platform hoạt động ở tầng agent.
 
+## [2026-07-01] ingest | Web crawl TST Tourist FIT Tour 2026 (~60 tour, 3 khu vực)
+Crawl 3 URL từ `raw/assets/FITTrour2026.md`: tsttourist.com/chau-a (3 page), /my-uc, /chau-au.
+Thu được ~60 tour FIT: Châu Á 36 (Nhật 5, TQ 11, Thái 2, HQ 3, ĐNA 4, khác 11), Châu Mỹ 11, Châu Âu 13.
+Tạo: raw/converted/fit-tour-tst-2026.md, sources/fit-tour-tst-2026, synthesis/tst-tour-catalog-2026.
+Insight quan trọng: Bangkok-Pattaya FIT = 10.88tr vs. group Oct 2026 = 16.88tr (chênh 55% — vé mùa cao điểm + dịch vụ nhóm).
+HNH hiện chỉ có wiki 4 điểm đến; TST có 20+ điểm đến — Bali, Singapore, Lào là cơ hội cạnh tranh gần nhất.
+
+## [2026-07-01] ingest | 2 nguồn Bangkok-Pattaya mới → 5 trang mới, 3 trang cập nhật
+Convert + ingest: `BANGKOK - PATTAYA 5N4D.pdf` (brochure TST Tourist) và `ĐXDG THAILAND 5N4D.xlsx`
+(chiết tính nội bộ đoàn 15 pax khởi hành 14/10/2026).
+Tạo mới: sources/bangkok-pattaya-5n4d-tst-tourist, sources/dxdg-thailand-5n4d-oct2026,
+tours/quotes/bangkok-pattaya-5n4d-oct2026-noi-bo (chiết tính đầy đủ, giá bán 16,88tr/pax, margin 10,09%),
+entities/alcazar-show.
+Cập nhật: tours/tour-products/bangkok-pattaya-5n4d (thêm biến thể TST + giá 2026),
+destinations/bangkok (bổ sung POI: Jomtien Beach, Alcazar, Erawan Shrine, Marine Park, Mật ong farm, Snake Farm).
+Phát hiện: land partner PTC (cần tạo supplier/dmc stub sau). Tỷ giá 26.500 VND/USD (Oct 2026).
+
 ## [2026-06-24] maintain | Code Spec 3 — Website nội bộ (Streamlit)
 Viết Spec 3 (`docs/superpowers/specs/2026-06-24-website-design.md`) + `web/app.py` (Streamlit, KHÔNG auth):
 chat UI + save-gate bằng nút Duyệt/Không + sidebar (model, KB stats). Cài streamlit 1.58 vào .venv.

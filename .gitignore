@@ -8,9 +8,16 @@
 __pycache__/
 *.pyc
 
+# API keys — KHÔNG commit
+.env
+api.env
+
 # === Dữ liệu nhạy cảm — KHÔNG commit (số TK ngân hàng vendor) ===
 raw/assets/SupplierList.xlsx
 raw/converted/supplier-list.md
+
+# Playwright test screenshots
+.playwright-mcp/
 
 # Graphify local-only
 graphify-out/cost.json

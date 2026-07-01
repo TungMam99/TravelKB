@@ -38,7 +38,18 @@
       "Bash(.venv/bin/python -c \"import claude_agent_sdk; print\\('claude_agent_sdk có sẵn'\\)\")",
       "Bash(claude -p \"trả lời đúng 1 từ: ping\")",
       "Bash(.venv/bin/streamlit run *)",
-      "Bash(echo \"started streamlit pid $!\")"
+      "Bash(echo \"started streamlit pid $!\")",
+      "Bash(.venv/bin/python -m py_compile web/app.py)",
+      "Bash(.venv/bin/markitdown \"raw/assets/ĐXĐ THAILAND 5N4D.xlsx\")",
+      "WebFetch(domain:www.tsttourist.com)",
+      "Bash(.venv/bin/python *)",
+      "Bash(echo \"PID: $!\")",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "mcp__plugin_playwright_playwright__browser_take_screenshot",
+      "mcp__plugin_playwright_playwright__browser_snapshot",
+      "Bash(curl -s http://localhost:8501)",
+      "Bash(git commit -m ' *)"
     ]
-  }
+  },
+  "model": "sonnet"
 }
